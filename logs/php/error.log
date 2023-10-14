@@ -1,0 +1,17 @@
+[08-Oct-2023 15:57:06 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): supplied resource is not a valid stream resource in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php:35
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php(35): fclose(Resource id #6)
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php on line 35
+[08-Oct-2023 15:57:33 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): supplied resource is not a valid stream resource in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php:35
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php(35): fclose(Resource id #6)
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php on line 35
+[08-Oct-2023 16:02:59 UTC] PHP Warning:  fopen(https://overlay-updater.local/overlay_files/set_name.txt): Failed to open stream: HTTP wrapper does not support writeable connections in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_set.php on line 18
+[08-Oct-2023 16:05:08 UTC] PHP Warning:  fopen(https://overlay-updater.local/overlay_files/best_of.txt): Failed to open stream: HTTP wrapper does not support writeable connections in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_set.php on line 19
+[10-Oct-2023 00:12:06 UTC] PHP Warning:  copy(../assets/characters/leftmewtwo.png): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php on line 56
+[10-Oct-2023 00:12:06 UTC] PHP Warning:  copy(../assets/characters/rightmewtwo.png): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php on line 64
+[10-Oct-2023 00:13:41 UTC] PHP Warning:  copy(../assets/characters/leftganondorf.png): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php on line 56
+[10-Oct-2023 00:13:41 UTC] PHP Warning:  copy(../assets/characters/rightganondorf.png): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php on line 64
+[10-Oct-2023 00:15:42 UTC] PHP Warning:  copy(../assets/characters/leftganondorf.png): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_match.php on line 56
