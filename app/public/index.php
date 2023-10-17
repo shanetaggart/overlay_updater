@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./includes/main.css" />
 	<script type="text/javascript" src="./includes/characters.js"></script>
 	<script type="text/javascript" src="./includes/main.js"></script>
@@ -10,7 +11,7 @@
 <body>
 	<section>
 		<h1>Overlay Updater</h1>
-		<form action="https://overlay-updater.local/includes/update_set.php" method="post">
+		<form action="/includes/update_set.php" method="post">
 			<h2>Set Details</h2>
 			<label for="set_name">Set Name</label>
 			<input type="text" name="set_name" id="set_name" maxlength="16" tabindex="1" />
@@ -36,7 +37,7 @@
 			<input type="submit" value="Update" tabindex="5" />
 		</form>
 
-		<form action="https://overlay-updater.local/includes/update_match.php" method="post">
+		<form action="/includes/update_match.php" method="post">
 			<h2>Match Details</h2>
 			<section>
 				<aside>

@@ -94,5 +94,5 @@ if (isset($right_score_file)) {
 }
 
 // Redirect back to the main Overlay Updater page.
-$form_url = 'https://overlay-updater.local/index.php';
+$form_url = '../index.php';
 header('Location: ' . $form_url);

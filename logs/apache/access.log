@@ -896,3 +896,16 @@
 127.0.0.1 - - [14/Oct/2023:19:58:08 -0300] "GET /includes/characters.js HTTP/1.0" 304 -
 127.0.0.1 - - [14/Oct/2023:19:58:08 -0300] "GET /includes/main.js HTTP/1.0" 200 782
 127.0.0.1 - - [14/Oct/2023:19:58:08 -0300] "GET /favicon.ico HTTP/1.0" 404 196
+::1 - - [17/Oct/2023:20:01:49 -0300] "GET / HTTP/1.1" 200 2034
+::1 - - [17/Oct/2023:20:01:49 -0300] "GET /includes/main.css HTTP/1.1" 200 851
+::1 - - [17/Oct/2023:20:01:49 -0300] "GET /includes/main.js HTTP/1.1" 200 782
+::1 - - [17/Oct/2023:20:01:49 -0300] "GET /includes/characters.js HTTP/1.1" 200 1479
+::1 - - [17/Oct/2023:20:01:57 -0300] "GET / HTTP/1.1" 200 2034
+::1 - - [17/Oct/2023:20:02:08 -0300] "GET / HTTP/1.1" 200 2034
+::1 - - [17/Oct/2023:20:02:28 -0300] "GET / HTTP/1.1" 200 2034
+::1 - - [17/Oct/2023:20:18:28 -0300] "GET / HTTP/1.1" 200 1976
+::1 - - [17/Oct/2023:20:18:28 -0300] "GET /includes/main.css HTTP/1.1" 304 -
+::1 - - [17/Oct/2023:20:18:28 -0300] "GET /includes/characters.js HTTP/1.1" 304 -
+::1 - - [17/Oct/2023:20:18:28 -0300] "GET /includes/main.js HTTP/1.1" 304 -
+::1 - - [17/Oct/2023:20:18:32 -0300] "POST /includes/update_match.php HTTP/1.1" 302 -
+::1 - - [17/Oct/2023:20:18:32 -0300] "GET /index.php HTTP/1.1" 200 1976
