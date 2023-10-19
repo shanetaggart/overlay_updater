@@ -36,19 +36,28 @@ form input[type=text],
 form input[type=number],
 form select {
     padding: 1em 2em;
-    width: 75%;
+    width: 74%;
 }
 
 form select {
-    width: 100%;
+    width: 99%;
 }
 
 form input[type=submit] {
     width: 100%;
-    margin: 3em 0 0;
     padding: 1em 2em;
 }
 
 form input[type="text"]#set_name {
     width: calc(100% - 4.25em);
+}
+
+form .sticky-submit-wrapper {
+    position: sticky;
+    bottom: 0;
+    background-color: #333;
+    display: grid;
+    place-items: center;
+    margin: 3em 0 0;
+    padding: 2em 0;
 }
