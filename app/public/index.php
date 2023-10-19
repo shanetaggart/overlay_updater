@@ -17,10 +17,10 @@
 			<input type="text" name="set_name" id="set_name" maxlength="16" tabindex="1" />
 			<label for="best_of">Best Of</label>
 			<select name="best_of" id="best_of" tabindex="2">
-				<option></option>
-				<option>Best of 1</option>
-				<option>Best of 3</option>
-				<option>Best of 5</option>
+				<option value="" selected></option>
+				<option value="best of 1">Best of 1</option>
+				<option value="best of 3">Best of 3</option>
+				<option value="best of 5">Best of 5</option>
 			</select>
 			<section>
 				<aside>
