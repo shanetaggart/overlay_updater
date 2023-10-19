@@ -909,3 +909,7 @@
 ::1 - - [17/Oct/2023:20:18:28 -0300] "GET /includes/main.js HTTP/1.1" 304 -
 ::1 - - [17/Oct/2023:20:18:32 -0300] "POST /includes/update_match.php HTTP/1.1" 302 -
 ::1 - - [17/Oct/2023:20:18:32 -0300] "GET /index.php HTTP/1.1" 200 1976
+::1 - - [19/Oct/2023:19:01:50 -0300] "GET / HTTP/1.1" 200 1976
+::1 - - [19/Oct/2023:19:01:50 -0300] "GET /includes/main.css HTTP/1.1" 304 -
+::1 - - [19/Oct/2023:19:01:50 -0300] "GET /includes/main.js HTTP/1.1" 304 -
+::1 - - [19/Oct/2023:19:01:50 -0300] "GET /includes/characters.js HTTP/1.1" 304 -
