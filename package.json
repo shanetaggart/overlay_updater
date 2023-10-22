@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "build": "node-sass app/public/includes/scss/ -o app/public/includes/css/",
+    "dev": "node-sass app/public/includes/scss/ -o app/public/includes/css/ && node-sass -w app/public/includes/scss/ -o app/public/includes/css/"
+  }
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0; }
+
+body {
+  background: #333;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  padding: 2em; }
+  body h1 {
+    font-size: 2em;
+    text-transform: uppercase; }
+
+section {
+  display: grid;
+  place-items: center; }
+  section form {
+    margin: 0 0 2em 0;
+    border: 1px solid #fff;
+    padding: 1.5em 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em; }
+    section form h2 {
+      margin: 0; }
+    section form label {
+      display: grid;
+      gap: 1em; }
+    section form input,
+    section form select {
+      padding: 1em 2em;
+      text-transform: uppercase; }
+    section form input[type=submit]:hover,
+    section form select:hover {
+      cursor: pointer; }
+    section form aside {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2em 1em; }
+    section form div {
+      position: sticky;
+      bottom: 0;
+      background-color: #333;
+      padding: 1.5em 0;
+      margin: 0 0 -1.5em; }
+      section form div input[type=submit] {
+        width: 100%;
+        background: #fff;
+        border: none; }
