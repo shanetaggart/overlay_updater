@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background:#333;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    padding: 2em;
+
+    h1 {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+}
+
+section {
+    
+    display: grid;
+    place-items: center;
+
+    form {
+        margin: 0 0 2em 0;
+        border: 1px solid #fff;
+        padding: 1.5em 3em;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+
+        h2 {
+            margin: 0;
+        }
+
+        label {
+            display: grid;
+            gap: 1em;
+        }
+        
+        input,
+        select {
+            padding: 1em 2em;
+            text-transform: uppercase;
+        }
+
+        input[type=submit],
+        select {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        aside {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2em 1em;
+        }
+
+        div {
+            position: sticky;
+            bottom: 0;
+            background-color: #333;
+            padding: 1.5em 0;
+            margin: 0 0 -1.5em;
+
+            input[type=submit] {
+                width: 100%;
+                background: #fff;
+                border: none;
+            }
+        }
+    }
+}
