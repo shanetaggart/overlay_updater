@@ -239,3 +239,65 @@ Stack trace:
 [24-Oct-2023 23:32:06 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
 [24-Oct-2023 23:32:06 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
 [24-Oct-2023 23:32:06 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:45:26 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 31
+[24-Oct-2023 23:45:26 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[24-Oct-2023 23:45:26 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[24-Oct-2023 23:45:26 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[24-Oct-2023 23:45:26 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[24-Oct-2023 23:45:26 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[24-Oct-2023 23:46:19 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 31
+[24-Oct-2023 23:46:19 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[24-Oct-2023 23:46:19 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[24-Oct-2023 23:46:19 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[24-Oct-2023 23:46:19 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[24-Oct-2023 23:46:19 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 31
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 31
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[24-Oct-2023 23:46:20 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[24-Oct-2023 23:46:21 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 31
+[24-Oct-2023 23:46:21 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[24-Oct-2023 23:46:21 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[24-Oct-2023 23:46:21 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[24-Oct-2023 23:46:21 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[24-Oct-2023 23:46:21 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[24-Oct-2023 23:47:41 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 31
+[24-Oct-2023 23:47:41 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[24-Oct-2023 23:47:41 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[24-Oct-2023 23:47:41 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[24-Oct-2023 23:47:41 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[24-Oct-2023 23:47:41 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[24-Oct-2023 23:48:28 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 31
+[24-Oct-2023 23:48:28 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[24-Oct-2023 23:48:28 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[24-Oct-2023 23:48:28 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[24-Oct-2023 23:48:28 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[24-Oct-2023 23:48:28 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  Undefined array key 19 in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 92
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 92
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  copy(../assets/characters/left/.png): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 92
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  Undefined array key 19 in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 93
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 93
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  copy(../assets/characters/right/.png): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 93
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  Undefined array key 19 in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 96
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 96
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  Undefined array key 19 in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 97
+[24-Oct-2023 23:50:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 97
+[24-Oct-2023 23:52:37 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:52:37 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:52:37 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:52:37 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:52:37 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:52:42 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:52:42 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:52:42 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:52:42 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:52:42 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24

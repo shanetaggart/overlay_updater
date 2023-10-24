@@ -1,5 +1,4 @@
 const characters = [
-    '',
     'Banjo and Kazooie',
     'Bayonetta',
     'Bowser',
