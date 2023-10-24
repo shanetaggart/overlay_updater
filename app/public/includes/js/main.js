@@ -11,6 +11,8 @@ window.addEventListener('load', (event) => {
             let newOption = document.createElement('option');
             // Set the innerText of the new <option> element to the character name.
             newOption.innerText = character;
+            // Set the value of the new <option> element to the character name.
+            newOption.value = character.toLowerCase();
             // Append the new <option> element as a child of the <select> element.
             select.append(newOption);
         });
