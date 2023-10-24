@@ -32,18 +32,45 @@ $right_name_path = '../overlay_files/right_name.txt';
 $right_score_path = '../overlay_files/right_score.txt';
 $set_name_path = '../overlay_files/set_name.txt';
 
-// Create all necessary files in overlay_files
-fopen($best_of_path, 'w');
-fopen($left_character_path, 'w');
-fopen($left_name_path, 'w');
-fopen($left_score_path, 'w');
-fopen($right_character_path, 'w');
-fopen($right_name_path, 'w');
-fopen($right_score_path, 'w');
-fopen($set_name_path, 'w');
+// Create all necessary files in overlay_files if they don't exist.
+$temp_files = [];
 
-// Close all open streams.
-array_map('fclose', get_resources('stream'));
+if (!file_exists($best_of_path)) {
+    $temp_file_bo = fopen($best_of_path, 'w');
+    array_push($temp_files, $temp_file_bo);
+}
+if (!file_exists($left_character_path)) {
+    $temp_file_lc = fopen($left_character_path, 'w');
+    array_push($temp_files, $temp_file_lc);
+}
+if (!file_exists($left_name_path)) {
+    $temp_file_ln = fopen($left_name_path, 'w');
+    array_push($temp_files, $temp_file_ln);
+}
+if (!file_exists($left_score_path)) {
+    $temp_file_ls = fopen($left_score_path, 'w');
+    array_push($temp_files, $temp_file_ls);
+}
+if (!file_exists($right_character_path)) {
+    $temp_file_rc = fopen($right_character_path, 'w');
+    array_push($temp_files, $temp_file_rc);
+}
+if (!file_exists($right_name_path)) {
+    $temp_file_rn = fopen($right_name_path, 'w');
+    array_push($temp_files, $temp_file_rn);
+}
+if (!file_exists($right_score_path)) {
+    $temp_file_rs = fopen($right_score_path, 'w');
+    array_push($temp_files, $temp_file_rs);
+}
+if (!file_exists($set_name_path)) {
+    $temp_file_sn = fopen($set_name_path, 'w');
+    array_push($temp_files, $temp_file_sn);
+}
+
+foreach ($temp_files as $file) {
+    fclose($file);
+}
 
 // Store the file path for the character assets.
 $character_asset_path = '../assets/characters/';
