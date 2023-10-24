@@ -15,6 +15,32 @@
 
 <body>
 
+	<?php
+
+	$best_of_file = 'overlay_files/best_of.txt';
+	$left_character_file = 'overlay_files/left_character.png';
+	$left_character_name_file = 'overlay_files/left_character_name.txt';
+	$left_name_file = 'overlay_files/left_name.txt';
+	$left_score_file = 'overlay_files/left_score.txt';
+	$right_character_file = 'overlay_files/right_character.png';
+	$right_character_name_file = 'overlay_files/right_character_name.txt';
+	$right_name_file = 'overlay_files/right_name.txt';
+	$right_score_file = 'overlay_files/right_score.txt';
+	$set_name_file = 'overlay_files/set_name.txt';
+
+	$best_of_placeholder = file_get_contents($best_of_file);
+	$left_character_placeholder = file_get_contents($left_character_file);
+	$left_character_name_placeholder = file_get_contents($left_character_name_file);
+	$left_name_placeholder = file_get_contents($left_name_file);
+	$left_score_placeholder = file_get_contents($left_score_file);
+	$right_chacracter_placeholder = file_get_contents($right_character_file);
+	$right_character_name_placeholder = file_get_contents($right_character_name_file);
+	$right_name_placeholder = file_get_contents($right_name_file);
+	$right_score_placeholder = file_get_contents($right_score_file);
+	$set_name_placeholder = file_get_contents($set_name_file);
+
+	?>
+
 	<section>
 
 		<picture>
@@ -31,12 +57,12 @@
 			</aside>
 
 			<label for="set_name">Set Name
-				<input type="text" name="set_name" id="set_name" maxlength="16" />
+				<input type="text" name="set_name" id="set_name" maxlength="16" placeholder="<?php echo $set_name_placeholder; ?>" />
 			</label>
 
 			<label for="best_of">Best Of
-				<select name="best_of" id="best_of">
-					<option value="" selected></option>
+				<select name="best_of" id="best_of" required>
+					<option disabled selected value=""><?php echo $best_of_placeholder; ?></option>
 					<option value="best of 1">Best of 1</option>
 					<option value="best of 3">Best of 3</option>
 					<option value="best of 5">Best of 5</option>
@@ -45,10 +71,10 @@
 
 			<aside>
 				<label for="left_name">Left Name
-					<input type="text" name="left_name" id="left_name" />
+					<input type="text" name="left_name" id="left_name" placeholder="<?php echo $left_name_placeholder; ?>" />
 				</label>
 				<label for="right_name">Right Name
-					<input type="text" name="right_name" id="right_name" />
+					<input type="text" name="right_name" id="right_name" placeholder="<?php echo $right_name_placeholder; ?>" />
 				</label>
 			</aside>
 
@@ -56,16 +82,20 @@
 
 			<aside>
 				<label for="left_score">Left Score
-					<input type="number" name="left_score" id="left_score" min="0" max="3" />
+					<input type="number" name="left_score" id="left_score" min="0" max="3" placeholder="<?php echo $left_score_placeholder; ?>" />
 				</label>
 				<label for="right_score">Right Score
-					<input type="number" name="right_score" id="right_score" min="0" max="3" />
+					<input type="number" name="right_score" id="right_score" min="0" max="3" placeholder="<?php echo $right_score_placeholder; ?>" />
 				</label>
 				<label for="left_character">Left Character
-					<select class="characters" name="left_character" id="left_character"></select>
+					<select class="characters" name="left_character" id="left_character" required>
+						<option disabled selected value=""><?php echo $left_character_name_placeholder; ?></option>
+					</select>
 				</label>
 				<label for="right_character">Right Character
-					<select class="characters" name="right_character" id="right_character"></select>
+					<select class="characters" name="right_character" id="right_character" required>
+						<option disabled selected value=""><?php echo $right_character_name_placeholder; ?></option>
+					</select>
 				</label>
 			</aside>
 

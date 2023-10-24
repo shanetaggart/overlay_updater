@@ -1,6 +1,12 @@
+$placeholder_grey: #aaa;
+
 * {
     box-sizing: border-box;
     padding: 0;
+
+    &::placeholder {
+        color: $placeholder_grey;
+    }
 }
 
 body {
@@ -74,6 +80,26 @@ section {
                 border: 2px solid #fff;
             }
         }
+
+        select {
+
+            // The select element is set to required
+            // as long as the selected options value
+            // is empty the element is not valid.
+            &:invalid {
+              color: $placeholder_grey;
+            }
+          
+            // Styling for browsers which do support
+            // styling select option elements directly
+            [disabled] {
+              color: $placeholder_grey;
+            }
+          
+            option {
+              color: black;
+            }
+          }
 
         aside {
             display: grid;
