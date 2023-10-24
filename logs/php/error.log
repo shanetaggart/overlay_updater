@@ -103,3 +103,139 @@ Stack trace:
 [19-Oct-2023 22:01:49 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
 [19-Oct-2023 22:01:49 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
 [19-Oct-2023 22:01:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:11:31 UTC] PHP Warning:  Undefined variable $set_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 78
+[24-Oct-2023 23:11:31 UTC] PHP Warning:  Undefined variable $best_of_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 83
+[24-Oct-2023 23:11:31 UTC] PHP Warning:  Undefined variable $left_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 92
+[24-Oct-2023 23:11:31 UTC] PHP Warning:  Undefined variable $right_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 95
+[24-Oct-2023 23:11:31 UTC] PHP Warning:  Undefined variable $left_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 103
+[24-Oct-2023 23:11:31 UTC] PHP Warning:  Undefined variable $right_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 106
+[24-Oct-2023 23:11:31 UTC] PHP Warning:  Undefined variable $left_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 110
+[24-Oct-2023 23:11:31 UTC] PHP Warning:  Undefined variable $right_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 115
+[24-Oct-2023 23:12:43 UTC] PHP Warning:  Undefined variable $set_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 27
+[24-Oct-2023 23:12:43 UTC] PHP Warning:  Undefined variable $best_of_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[24-Oct-2023 23:12:43 UTC] PHP Warning:  Undefined variable $left_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[24-Oct-2023 23:12:43 UTC] PHP Warning:  Undefined variable $right_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[24-Oct-2023 23:12:43 UTC] PHP Warning:  Undefined variable $left_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 52
+[24-Oct-2023 23:12:43 UTC] PHP Warning:  Undefined variable $right_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 55
+[24-Oct-2023 23:12:43 UTC] PHP Warning:  Undefined variable $left_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 59
+[24-Oct-2023 23:12:43 UTC] PHP Warning:  Undefined variable $right_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 64
+[24-Oct-2023 23:13:59 UTC] PHP Warning:  Undefined variable $set_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 27
+[24-Oct-2023 23:13:59 UTC] PHP Warning:  Undefined variable $best_of_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[24-Oct-2023 23:13:59 UTC] PHP Warning:  Undefined variable $left_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[24-Oct-2023 23:13:59 UTC] PHP Warning:  Undefined variable $right_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[24-Oct-2023 23:13:59 UTC] PHP Warning:  Undefined variable $left_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 52
+[24-Oct-2023 23:13:59 UTC] PHP Warning:  Undefined variable $right_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 55
+[24-Oct-2023 23:13:59 UTC] PHP Warning:  Undefined variable $left_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 59
+[24-Oct-2023 23:13:59 UTC] PHP Warning:  Undefined variable $right_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 64
+[24-Oct-2023 23:19:33 UTC] PHP Warning:  Undefined variable $set_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 27
+[24-Oct-2023 23:19:33 UTC] PHP Warning:  Undefined variable $best_of_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[24-Oct-2023 23:19:33 UTC] PHP Warning:  Undefined variable $left_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[24-Oct-2023 23:19:33 UTC] PHP Warning:  Undefined variable $right_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[24-Oct-2023 23:19:33 UTC] PHP Warning:  Undefined variable $left_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 52
+[24-Oct-2023 23:19:33 UTC] PHP Warning:  Undefined variable $right_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 55
+[24-Oct-2023 23:19:33 UTC] PHP Warning:  Undefined variable $left_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 59
+[24-Oct-2023 23:19:33 UTC] PHP Warning:  Undefined variable $right_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 64
+[24-Oct-2023 23:19:34 UTC] PHP Warning:  Undefined variable $set_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 27
+[24-Oct-2023 23:19:34 UTC] PHP Warning:  Undefined variable $best_of_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[24-Oct-2023 23:19:34 UTC] PHP Warning:  Undefined variable $left_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[24-Oct-2023 23:19:34 UTC] PHP Warning:  Undefined variable $right_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[24-Oct-2023 23:19:34 UTC] PHP Warning:  Undefined variable $left_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 52
+[24-Oct-2023 23:19:34 UTC] PHP Warning:  Undefined variable $right_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 55
+[24-Oct-2023 23:19:34 UTC] PHP Warning:  Undefined variable $left_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 59
+[24-Oct-2023 23:19:34 UTC] PHP Warning:  Undefined variable $right_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 64
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $set_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 27
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $best_of_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 52
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 55
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 59
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 64
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $set_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 27
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $best_of_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 52
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 55
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 59
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 64
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $set_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 27
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $best_of_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 52
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 55
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $left_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 59
+[24-Oct-2023 23:19:35 UTC] PHP Warning:  Undefined variable $right_character_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 64
+[24-Oct-2023 23:25:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:25:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:26:16 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_zip.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_zip.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_zip.dll.dll (The specified module could not be found)) in Unknown on line 0
+[24-Oct-2023 23:29:23 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:29:23 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:29:23 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:29:23 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:29:23 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:29:25 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:29:25 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:29:25 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:29:25 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:29:25 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:29:27 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:29:27 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:29:27 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:29:27 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:29:27 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:30:14 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:30:14 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:30:14 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:30:14 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:30:14 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:30:25 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:30:25 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:30:25 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:30:25 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:30:27 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:30:27 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:30:27 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:30:27 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:30:37 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:30:37 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:30:37 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:30:37 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:30:37 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:30:44 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:30:44 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:30:44 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:30:44 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:30:52 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:30:52 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:30:52 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:30:52 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:30:52 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:30:59 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:30:59 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:30:59 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:31:43 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:31:56 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:31:56 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:31:56 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:31:56 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:31:56 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:31:58 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:31:58 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:31:58 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:31:58 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:31:58 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[24-Oct-2023 23:32:06 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[24-Oct-2023 23:32:06 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[24-Oct-2023 23:32:06 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[24-Oct-2023 23:32:06 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[24-Oct-2023 23:32:06 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24

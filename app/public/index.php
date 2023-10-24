@@ -2,15 +2,37 @@
 <html>
 
 <head>
-
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="./includes/main.css" />
-	<script type="text/javascript" src="./includes/characters.js"></script>
-	<script type="text/javascript" src="./includes/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="./includes/css/main.css" />
+	<script type="text/javascript" src="./includes/js/characters.js"></script>
+	<script type="text/javascript" src="./includes/js/main.js"></script>
 
 </head>
 
 <body>
+
+	<?php
+
+	$best_of_path = 'overlay_files/best_of.txt';
+	$left_character_name_path = 'overlay_files/left_character_name.txt';
+	$left_name_path = 'overlay_files/left_name.txt';
+	$left_score_path = 'overlay_files/left_score.txt';
+	$right_character_name_path = 'overlay_files/right_character_name.txt';
+	$right_name_path = 'overlay_files/right_name.txt';
+	$right_score_path = 'overlay_files/right_score.txt';
+	$set_name_path = 'overlay_files/set_name.txt';
+
+	$best_of_placeholder = file_get_contents($best_of_path);
+	$left_character_name_placeholder = file_get_contents($left_character_name_path);
+	$left_name_placeholder = file_get_contents($left_name_path);
+	$left_score_placeholder = file_get_contents($left_score_path);
+	$right_character_name_placeholder = file_get_contents($right_character_name_path);
+	$right_name_placeholder = file_get_contents($right_name_path);
+	$right_score_placeholder = file_get_contents($right_score_path);
+	$set_name_placeholder = file_get_contents($set_name_path);
+
+	?>
 
 	<section>
 
@@ -18,55 +40,58 @@
 
 		<form action="/includes/update_data.php" method="post">
 
-			<h2>Set Details</h2>
+			<aside>
+				<h2 id="heading">Set Details</h2>
+				<button id="form-reset">Reset</button>
+			</aside>
 
-			<label for="set_name">Set Name</label>
-			<input type="text" name="set_name" id="set_name" maxlength="16" tabindex="1" />
+			<label for="set_name">Set Name
+				<input type="text" name="set_name" id="set_name" maxlength="16" placeholder="<?php echo $set_name_placeholder; ?>" />
+			</label>
 
-			<label for="best_of">Best Of</label>
-			<select name="best_of" id="best_of" tabindex="2">
-				<option value="" selected></option>
-				<option value="best of 1">Best of 1</option>
-				<option value="best of 3">Best of 3</option>
-				<option value="best of 5">Best of 5</option>
-			</select>
+			<label for="best_of">Best Of
+				<select name="best_of" id="best_of" required>
+					<option disabled selected value=""><?php echo $best_of_placeholder; ?></option>
+					<option value="best of 1">Best of 1</option>
+					<option value="best of 3">Best of 3</option>
+					<option value="best of 5">Best of 5</option>
+				</select>
+			</label>
 
-			<section>
-
-				<aside>
-					<label for="left_name">Left Name</label>
-					<input type="text" name="left_name" id="left_name" tabindex="3" />
-				</aside>
-
-				<aside>
-					<label for="right_name">Right Name</label>
-					<input type="text" name="right_name" id="right_name" tabindex="4" />
-				</aside>
-
-			</section>
+			<aside>
+				<label for="left_name">Left Name
+					<input type="text" name="left_name" id="left_name" placeholder="<?php echo $left_name_placeholder; ?>" />
+				</label>
+				<label for="right_name">Right Name
+					<input type="text" name="right_name" id="right_name" placeholder="<?php echo $right_name_placeholder; ?>" />
+				</label>
+			</aside>
 
 			<h2>Match Details</h2>
 
-			<section>
+			<aside>
+				<label for="left_score" id="left_score_wrapper">Left Score
+					<input type="number" name="left_score" id="left_score" min="0" max="3" placeholder="<?php echo $left_score_placeholder; ?>" />
+				</label>
+				<label for="right_score" id="right_score_wrapper">Right Score
+					<input type="number" name="right_score" id="right_score" min="0" max="3" placeholder="<?php echo $right_score_placeholder; ?>" />
+				</label>
+				<label for="left_character" id="left_character_wrapper">Left Character
+					<select class="characters" name="left_character" id="left_character" required>
+						<option disabled selected value=""><?php echo $left_character_name_placeholder; ?></option>
+					</select>
+				</label>
+				<label for="right_character" id="right_character_wrapper">Right Character
+					<select class="characters" name="right_character" id="right_character" required>
+						<option disabled selected value=""><?php echo $right_character_name_placeholder; ?></option>
+					</select>
+				</label>
+				<img id="left_character_image" src="overlay_files/left_character.png" />
+				<img id="right_character_image" src="overlay_files/right_character.png" />
+			</aside>
 
-				<aside>
-					<label for="left_score">Left Score</label>
-					<input type="number" name="left_score" id="left_score" min="0" max="5" tabindex="6" />
-					<label for="left_character">Left Character</label>
-					<select class="characters" name="left_character" id="left_character" tabindex="8"></select>
-				</aside>
-
-				<aside>
-					<label for="right_score">Right Score</label>
-					<input type="number" name="right_score" id="right_score" min="0" max="5" tabindex="7" />
-					<label for="right_character">Right Character</label>
-					<select class="characters" name="right_character" id="right_character" tabindex="9"></select>
-				</aside>
-
-			</section>
-
-			<div class="sticky-submit-wrapper">
-				<input type="submit" value="Update" tabindex="10" />
+			<div>
+				<input type="submit" value="Update" id="form-submit" />
 			</div>
 
 		</form>

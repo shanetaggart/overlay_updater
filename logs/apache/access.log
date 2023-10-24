@@ -913,3 +913,10 @@
 ::1 - - [19/Oct/2023:19:01:50 -0300] "GET /includes/main.css HTTP/1.1" 304 -
 ::1 - - [19/Oct/2023:19:01:50 -0300] "GET /includes/main.js HTTP/1.1" 304 -
 ::1 - - [19/Oct/2023:19:01:50 -0300] "GET /includes/characters.js HTTP/1.1" 304 -
+::1 - - [24/Oct/2023:20:26:15 -0300] "GET / HTTP/1.1" 200 2550
+::1 - - [24/Oct/2023:20:26:56 -0300] "GET / HTTP/1.1" 200 2560
+::1 - - [24/Oct/2023:20:26:56 -0300] "GET /includes/css/main.css HTTP/1.1" 200 2759
+::1 - - [24/Oct/2023:20:26:56 -0300] "GET /includes/js/characters.js HTTP/1.1" 404 196
+::1 - - [24/Oct/2023:20:26:56 -0300] "GET /overlay_files/left_character.png HTTP/1.1" 200 145462
+::1 - - [24/Oct/2023:20:26:56 -0300] "GET /overlay_files/right_character.png HTTP/1.1" 200 182113
+::1 - - [24/Oct/2023:20:26:56 -0300] "GET /includes/js/main.js HTTP/1.1" 200 3598

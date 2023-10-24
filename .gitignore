@@ -1,2 +1,6 @@
-# ignore all overlay files
+package-lock.json
 app/public/overlay_files/
+app/sql/
+conf/
+logs/
+node_modules/

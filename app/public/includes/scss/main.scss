@@ -1,0 +1,142 @@
+$placeholder_grey: #aaa;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+
+    &::placeholder {
+        color: $placeholder_grey;
+    }
+}
+
+body {
+    background:#333;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    padding: 2em;
+
+    h1 {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+}
+
+section {
+    
+    display: grid;
+    place-items: center;
+
+    form {
+        border: 1px solid #fff;
+        display: grid;
+        gap: 2em;
+        grid-template-columns: 1fr;
+        margin: 0 0 2em 0;
+        padding: 1.5em 3em;
+        width: 60%;
+
+        h2 {
+            margin: 0;
+            display: grid;
+            align-self: center;
+        }
+
+        button {
+            width: 100%;
+            background: #fff;
+            border: none;
+        }
+
+        label {
+            display: grid;
+            gap: 1em;
+        }
+        
+        input,
+        button,
+        select {
+            padding: 1em 2em;
+            text-transform: uppercase;
+            transition: all 0.25s ease;
+            width: 100%;
+        }
+
+        input[type=submit],
+        button,
+        select {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        input[type="submit"],
+        button {
+            border: 2px solid transparent;
+
+            &:hover {
+                background-color: #333;
+                color: #fff;
+                border: 2px solid #fff;
+            }
+        }
+
+        select {
+            &:invalid {
+                color: $placeholder_grey;
+            }
+
+            [disabled] {
+                color: $placeholder_grey;
+            }
+
+            option {
+                color: black;
+            }
+        }
+
+        aside {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2em 1em;
+
+            @media screen and (max-width: 950px) {
+                grid-template-columns: unset;
+                grid-template-rows: 1fr;
+
+                // Set Details and Reset Button
+                #form-reset { order: 1; }
+                #heading { order: 2; }
+
+                // Scores and Characters
+                #left_score_wrapper { order: 1; }
+                #left_character_wrapper { order: 2; }
+                #left_character_image { order: 3; }
+                #right_score_wrapper { order: 4; }
+                #right_character_wrapper { order: 5; }
+                #right_character_image { order: 6; }
+            }
+
+            img {
+                width: 100%;
+                filter: grayscale(1);
+                transition: filter 0.25s ease;
+            }
+        }
+
+        div {
+            position: sticky;
+            bottom: 0;
+            background-color: #333;
+            padding: 1.5em 0;
+            margin: 0 0 -1.5em;
+
+            input[type=submit] {
+                width: 100%;
+                background: #fff;
+            }
+        }
+    }
+}

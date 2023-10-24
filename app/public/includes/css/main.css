@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  padding: 0; }
+  *::placeholder {
+    color: #aaa; }
+
+body {
+  background: #333;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  padding: 2em; }
+  body h1 {
+    font-size: 2em;
+    text-transform: uppercase; }
+
+section {
+  display: grid;
+  place-items: center; }
+  section form {
+    border: 1px solid #fff;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr;
+    margin: 0 0 2em 0;
+    padding: 1.5em 3em;
+    width: 60%; }
+    section form h2 {
+      margin: 0;
+      display: grid;
+      align-self: center; }
+    section form button {
+      width: 100%;
+      background: #fff;
+      border: none; }
+    section form label {
+      display: grid;
+      gap: 1em; }
+    section form input,
+    section form button,
+    section form select {
+      padding: 1em 2em;
+      text-transform: uppercase;
+      transition: all 0.25s ease;
+      width: 100%; }
+    section form input[type=submit]:hover,
+    section form button:hover,
+    section form select:hover {
+      cursor: pointer; }
+    section form input[type="submit"],
+    section form button {
+      border: 2px solid transparent; }
+      section form input[type="submit"]:hover,
+      section form button:hover {
+        background-color: #333;
+        color: #fff;
+        border: 2px solid #fff; }
+    section form select:invalid {
+      color: #aaa; }
+    section form select [disabled] {
+      color: #aaa; }
+    section form select option {
+      color: black; }
+    section form aside {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2em 1em; }
+      @media screen and (max-width: 950px) {
+        section form aside {
+          grid-template-columns: unset;
+          grid-template-rows: 1fr; }
+          section form aside #form-reset {
+            order: 1; }
+          section form aside #heading {
+            order: 2; }
+          section form aside #left_score_wrapper {
+            order: 1; }
+          section form aside #left_character_wrapper {
+            order: 2; }
+          section form aside #left_character_image {
+            order: 3; }
+          section form aside #right_score_wrapper {
+            order: 4; }
+          section form aside #right_character_wrapper {
+            order: 5; }
+          section form aside #right_character_image {
+            order: 6; } }
+      section form aside img {
+        width: 100%;
+        filter: grayscale(1);
+        transition: filter 0.25s ease; }
+    section form div {
+      position: sticky;
+      bottom: 0;
+      background-color: #333;
+      padding: 1.5em 0;
+      margin: 0 0 -1.5em; }
+      section form div input[type=submit] {
+        width: 100%;
+        background: #fff; }
