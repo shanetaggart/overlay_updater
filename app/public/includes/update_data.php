@@ -32,6 +32,19 @@ $right_name_path = '../overlay_files/right_name.txt';
 $right_score_path = '../overlay_files/right_score.txt';
 $set_name_path = '../overlay_files/set_name.txt';
 
+// Create all necessary files in overlay_files
+fopen($best_of_path, 'w');
+fopen($left_character_path, 'w');
+fopen($left_name_path, 'w');
+fopen($left_score_path, 'w');
+fopen($right_character_path, 'w');
+fopen($right_name_path, 'w');
+fopen($right_score_path, 'w');
+fopen($set_name_path, 'w');
+
+// Close all open streams.
+array_map('fclose', get_resources('stream'));
+
 // Store the file path for the character assets.
 $character_asset_path = '../assets/characters/';
 
