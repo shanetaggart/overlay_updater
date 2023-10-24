@@ -53,10 +53,10 @@
 
 			<aside>
 				<label for="left_score">Left Score
-					<input type="number" name="left_score" id="left_score" min="0" max="5" />
+					<input type="number" name="left_score" id="left_score" min="0" max="3" />
 				</label>
 				<label for="right_score">Right Score
-					<input type="number" name="right_score" id="right_score" min="0" max="5" />
+					<input type="number" name="right_score" id="right_score" min="0" max="3" />
 				</label>
 				<label for="left_character">Left Character
 					<select class="characters" name="left_character" id="left_character"></select>

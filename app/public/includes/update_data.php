@@ -35,6 +35,12 @@ $set_name_path = '../overlay_files/set_name.txt';
 // Store the file path for the character assets.
 $character_asset_path = '../assets/characters/';
 
+// Convert a score of zero to a hyphen if the set is best of 1.
+if (strtolower($best_of) == 'best of 1') {
+    $left_score = '-';
+    $right_score = '-';
+}
+
 // Sanitize and convert text to uppercase.
 if ($best_of !== '') {
     $best_of = trim($best_of);
