@@ -25,17 +25,34 @@ section {
     grid-template-columns: 1fr;
     gap: 2em; }
     section form h2 {
-      margin: 0; }
+      margin: 0;
+      display: grid;
+      align-self: center; }
+    section form button {
+      width: 100%;
+      background: #fff;
+      border: none; }
     section form label {
       display: grid;
       gap: 1em; }
     section form input,
+    section form button,
     section form select {
       padding: 1em 2em;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      transition: all 0.25s ease; }
     section form input[type=submit]:hover,
+    section form button:hover,
     section form select:hover {
       cursor: pointer; }
+    section form input[type="submit"],
+    section form button {
+      border: 2px solid transparent; }
+      section form input[type="submit"]:hover,
+      section form button:hover {
+        background-color: #333;
+        color: #fff;
+        border: 2px solid #fff; }
     section form aside {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -48,5 +65,4 @@ section {
       margin: 0 0 -1.5em; }
       section form div input[type=submit] {
         width: 100%;
-        background: #fff;
-        border: none; }
+        background: #fff; }

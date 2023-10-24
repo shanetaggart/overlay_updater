@@ -25,7 +25,10 @@
 
 		<form action="/includes/update_data.php" method="post">
 
-			<h2>Set Details</h2>
+			<aside>
+				<h2>Set Details</h2>
+				<button id="form-reset">Reset</button>
+			</aside>
 
 			<label for="set_name">Set Name
 				<input type="text" name="set_name" id="set_name" maxlength="16" />
