@@ -27,6 +27,11 @@ section {
     margin: 0 0 2em 0;
     padding: 1.5em 3em;
     width: 60%; }
+    section form input:focus,
+    section form input[type=submit]:focus,
+    section form button:focus {
+      background-color: #000d1c;
+      color: #fff; }
     section form h2 {
       margin: 0;
       display: grid;

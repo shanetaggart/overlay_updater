@@ -38,6 +38,15 @@ section {
         padding: 1.5em 3em;
         width: 60%;
 
+        input,
+        input[type=submit],
+        button {
+            &:focus {
+                background-color: #000d1c;
+                color: #fff;
+            }
+        }
+
         h2 {
             margin: 0;
             display: grid;
