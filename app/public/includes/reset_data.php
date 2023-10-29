@@ -64,37 +64,34 @@ fwrite($left_score_file, '0');
 
 // Create a 3D array of character rivalries.
 $character_rivals = [
-    ['chrom',           'robin'],
-    ['cloud',           'sephiroth'],
-    ['diddykong',       'kingkrool'],
-    ['donkeykong',      'kingkrool'],
-    ['fox',             'wolf'],
-    ['kirby',           'kingdedede'],
-    ['kirby',           'metaknight'],
-    ['link',            'ganondorf'],
-    ['luigi',           'piranhaplant'],
-    ['mario',           'bowser'],
-    ['mario',           'wario'],
-    ['pit',             'darkpit'],
-    ['pokemontrainer',  'mewtwo'],
-    ['ryu',             'ken'],
-    ['samus',           'darksamus'],
-    ['samus',           'ridley'],
-    ['toonlink',        'ganondorf'],
-    ['yoshi',           'bowserjunior'],
-    ['younglink',       'ganondorf']
+    [['chrom'],                         ['robin']],
+    [['cloud'],                         ['sephiroth']],
+    [['diddykong', 'donkeykong'],       ['kingkrool']],
+    [['fox'],                           ['wolf']],
+    [['kirby'],                         ['kingdedede', 'metaknight']],
+    [['link', 'toonlink', 'younglink'], ['ganondorf']],
+    [['luigi'],                         ['piranhaplant']],
+    [['mario'],                         ['bowser', 'wario']],
+    [['pit'],                           ['darkpit']],
+    [['pokemontrainer'],                ['mewtwo']],
+    [['ryu'],                           ['ken']],
+    [['samus'],                         ['darksamus', 'ridley']],
+    [['yoshi'],                         ['bowserjunior']]
 ];
 
 // Choose a random rivalry.
-$rivals = rand(0, count($character_rivals));
+$rivals = $character_rivals[array_rand($character_rivals)];
+$left_rival = $rivals[0][array_rand($rivals[0])];
+$right_rival = $rivals[1][array_rand($rivals[1])];
+
 
 // Set the default images using the slected rivalry.
-copy('../assets/characters/left/' . $character_rivals[$rivals][0] . '.png', '../overlay_files/left_character.png');
-copy('../assets/characters/right/' . $character_rivals[$rivals][1] . '.png', '../overlay_files/right_character.png');
+copy('../assets/characters/left/' . $left_rival . '.png', '../overlay_files/left_character.png');
+copy('../assets/characters/right/' . $right_rival . '.png', '../overlay_files/right_character.png');
 
 // Set the default character names using the slected rivalry.
-fwrite($left_character_name_file, $character_rivals[$rivals][0]);
-fwrite($right_character_name_file, $character_rivals[$rivals][1]);
+fwrite($left_character_name_file, $left_rival);
+fwrite($right_character_name_file, $right_rival);
 
 // Close all open files.
 foreach ($open_files as $file) {

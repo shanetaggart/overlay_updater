@@ -68,3 +68,15 @@
 [Tue Oct 24 20:25:53.175044 2023] [core:notice] [pid 3616:tid 372] AH00094: Command line: 'C:\\Users\\User\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/User/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\User\\AppData\\Roaming\\Local\\run\\mFI4z4y1O\\conf\\apache\\apache2.conf'
 [Tue Oct 24 20:25:53.183044 2023] [mpm_winnt:notice] [pid 3616:tid 372] AH00418: Parent: Created child process 2412
 [Tue Oct 24 20:25:54.449045 2023] [mpm_winnt:notice] [pid 2412:tid 844] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 26 13:11:33.392639 2023] [core:warn] [pid 2700:tid 760] AH00098: pid file C:/Users/User/AppData/Roaming/Local/run/mFI4z4y1O/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 26 13:11:33.397641 2023] [mpm_winnt:notice] [pid 2700:tid 760] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Thu Oct 26 13:11:33.397641 2023] [mpm_winnt:notice] [pid 2700:tid 760] AH00456: Server built: Apr 21 2020 13:46:54
+[Thu Oct 26 13:11:33.397641 2023] [core:notice] [pid 2700:tid 760] AH00094: Command line: 'C:\\Users\\User\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/User/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\User\\AppData\\Roaming\\Local\\run\\mFI4z4y1O\\conf\\apache\\apache2.conf'
+[Thu Oct 26 13:11:33.404640 2023] [mpm_winnt:notice] [pid 2700:tid 760] AH00418: Parent: Created child process 8496
+[Thu Oct 26 13:11:34.995640 2023] [mpm_winnt:notice] [pid 8496:tid 848] AH00354: Child: Starting 64 worker threads.
+[Sun Oct 29 20:39:03.463857 2023] [core:warn] [pid 1412:tid 560] AH00098: pid file C:/Users/User/AppData/Roaming/Local/run/mFI4z4y1O/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Oct 29 20:39:03.468857 2023] [mpm_winnt:notice] [pid 1412:tid 560] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Sun Oct 29 20:39:03.468857 2023] [mpm_winnt:notice] [pid 1412:tid 560] AH00456: Server built: Apr 21 2020 13:46:54
+[Sun Oct 29 20:39:03.468857 2023] [core:notice] [pid 1412:tid 560] AH00094: Command line: 'C:\\Users\\User\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/User/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\User\\AppData\\Roaming\\Local\\run\\mFI4z4y1O\\conf\\apache\\apache2.conf'
+[Sun Oct 29 20:39:03.476857 2023] [mpm_winnt:notice] [pid 1412:tid 560] AH00418: Parent: Created child process 13176
+[Sun Oct 29 20:39:04.565857 2023] [mpm_winnt:notice] [pid 13176:tid 872] AH00354: Child: Starting 64 worker threads.
