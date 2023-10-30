@@ -44,7 +44,7 @@
 	<section>
 
 		<picture>
-			<img alt="Y-Town Smash Logo" src="/assets/images/Y-Town%20Smash%20Logo.webp" width="200" height="200" />
+			<img alt="Y-Town Smash Logo" src="/assets/images/Y-Town-Smash-Logo-v4.webp" width="200" height="200" />
 		</picture>
 
 		<h1>Overlay Updater</h1>
@@ -76,11 +76,9 @@
 				<label for="right_name">Right Name
 					<input type="text" name="right_name" id="right_name" placeholder="<?php echo $right_name_placeholder; ?>" />
 				</label>
-			</aside>
 
-			<h2>Match Details</h2>
+				<h2>Match Details</h2>
 
-			<aside>
 				<label for="left_score">Left Score
 					<input type="number" name="left_score" id="left_score" min="0" max="3" placeholder="<?php echo $left_score_placeholder; ?>" />
 				</label>
@@ -103,6 +101,7 @@
 
 			<div>
 				<input type="submit" value="Update" id="form-submit" />
+				<button id="swap">&larr;<br>&rarr;</button>
 			</div>
 
 		</form>
