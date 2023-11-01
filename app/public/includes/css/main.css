@@ -32,13 +32,17 @@ section {
     @media screen and (max-width: 950px) {
       section form {
         width: 90%; } }
-    section form input:focus,
-    section form input[type=submit]:focus,
-    section form button:focus {
-      background-color: #002f5f;
-      color: #fff;
-      border: none;
-      outline: 3px solid #2085e8; }
+    section form input,
+    section form input[type=submit],
+    section form button {
+      border: 3px solid transparent; }
+      section form input:focus,
+      section form input[type=submit]:focus,
+      section form button:focus {
+        background-color: #002f5f;
+        color: #fff;
+        border-color: #2085e8;
+        outline: none; }
     section form h2 {
       margin: 0;
       display: grid;
@@ -55,7 +59,7 @@ section {
     section form select {
       padding: 1em 2em;
       text-transform: uppercase;
-      transition: background-color 0.25s ease;
+      transition: background-color 0.25s ease, border 0.25s ease, color 0.25s ease;
       width: 100%; }
     section form input[type=submit]:hover,
     section form button:hover,
@@ -66,9 +70,9 @@ section {
       border: 2px solid transparent; }
       section form input[type="submit"]:hover,
       section form button:hover {
-        background-color: #333;
         color: #fff;
-        border: 2px solid #fff; }
+        border-color: #2085e8;
+        background-color: #002f5f; }
     section form select:invalid {
       color: #aaa; }
     section form select [disabled] {

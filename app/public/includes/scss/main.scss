@@ -1,6 +1,7 @@
 $placeholder_grey: #aaa;
 $navy: #002f5f;
 $light-blue: #2085e8;
+$transition: 0.25s ease;
 
 html {
     box-sizing: border-box;
@@ -50,11 +51,12 @@ section {
         input,
         input[type=submit],
         button {
+            border: 3px solid transparent;
             &:focus {
                 background-color: $navy;
                 color: #fff;
-                border: none;
-                outline: 3px solid $light-blue;
+                border-color: $light-blue;
+                outline: none;
             }
         }
 
@@ -80,7 +82,7 @@ section {
         select {
             padding: 1em 2em;
             text-transform: uppercase;
-            transition: background-color 0.25s ease;
+            transition: background-color $transition, border $transition, color $transition;
             width: 100%;
         }
 
@@ -97,9 +99,9 @@ section {
             border: 2px solid transparent;
 
             &:hover {
-                background-color: #333;
                 color: #fff;
-                border: 2px solid #fff;
+                border-color: $light-blue;
+                background-color: $navy;
             }
         }
 
@@ -143,7 +145,7 @@ section {
                 width: 100%;
                 height: auto;
                 filter: grayscale(1);
-                transition: filter 0.25s ease;
+                transition: filter $transition;
             }
         }
 
