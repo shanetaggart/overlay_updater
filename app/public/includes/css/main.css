@@ -1,8 +1,10 @@
-* {
-  box-sizing: border-box;
-  padding: 0; }
-  *::placeholder {
-    color: #aaa; }
+html {
+  box-sizing: border-box; }
+  html * {
+    box-sizing: inherit;
+    padding: 0; }
+    html *::placeholder {
+      color: #aaa; }
 
 body {
   background: #333;
@@ -34,7 +36,9 @@ section {
     section form input[type=submit]:focus,
     section form button:focus {
       background-color: #002f5f;
-      color: #fff; }
+      color: #fff;
+      border: none;
+      outline: 3px solid #2085e8; }
     section form h2 {
       margin: 0;
       display: grid;
@@ -51,7 +55,7 @@ section {
     section form select {
       padding: 1em 2em;
       text-transform: uppercase;
-      transition: all 0.25s ease;
+      transition: background-color 0.25s ease;
       width: 100%; }
     section form input[type=submit]:hover,
     section form button:hover,
