@@ -33,7 +33,7 @@ section {
     section form input:focus,
     section form input[type=submit]:focus,
     section form button:focus {
-      background-color: #000d1c;
+      background-color: #002f5f;
       color: #fff; }
     section form h2 {
       margin: 0;
