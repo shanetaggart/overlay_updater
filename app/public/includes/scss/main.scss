@@ -30,13 +30,17 @@ section {
     place-items: center;
 
     form {
-        border: 1px solid #fff;
+        border: 2px solid #fff;
         display: grid;
         gap: 2em;
         grid-template-columns: 1fr;
         margin: 0 0 2em 0;
         padding: 1.5em 3em;
         width: 60%;
+
+        @media screen and (max-width: 950px) {
+            width: 90%;
+        }
 
         input,
         input[type=submit],
@@ -102,7 +106,7 @@ section {
             }
 
             option {
-                color: black;
+                color: #000;
             }
         }
 
@@ -111,49 +115,26 @@ section {
             grid-template-columns: repeat(2, 1fr);
             gap: 2em 1em;
 
-            h2 {
-                grid-column: span 2;
-            }
-
-            #form-reset {
-                grid-column: 3 / span 1;
-            }
-            
-            .set-swap {
-                grid-column: 2;
-            }
-
-            .match-swap {
-                grid-row: 1 / span 3;
-                grid-column: 2 / span 1;
-            }
-
             @media screen and (max-width: 950px) {
                 grid-template-columns: unset;
                 grid-template-rows: 1fr;
 
-                .set-swap,
-                .match-swap {
-                    grid-row: unset;
-                    grid-column: unset;
-                }
-
-                // Set Details and Reset Button
                 #form-reset { order: 1; }
-                #heading { order: 2; }
+                h2 { order: 2; }
 
-                // Scores and Characters
-                label[for=left_score] { order: 1; }
-                label[for=left_character] { order: 2; }
-                #left_character_image { order: 3; }
-                .match-swap { order: 4; }
-                label[for=right_score] { order: 5; }
-                label[for=right_character] { order: 6; }
-                #right_character_image { order: 7; }
+                label[for=left_name] { order: 1; }
+                label[for=left_score] { order: 2; }
+                label[for=left_character] { order: 3; }
+                #left_character_image { order: 4; }
+                label[for=right_name] { order: 5; }
+                label[for=right_score] { order: 6; }
+                label[for=right_character] { order: 7; }
+                #right_character_image { order: 8; }
             }
 
             img {
                 width: 100%;
+                height: auto;
                 filter: grayscale(1);
                 transition: filter 0.25s ease;
             }

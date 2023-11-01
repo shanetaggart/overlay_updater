@@ -52,7 +52,7 @@
 		<form action="/includes/update_data.php" method="post">
 
 			<aside>
-				<h2>Set Details</h2>
+				<h2>Match Details</h2>
 				<button id="form-reset">Reset</button>
 			</aside>
 
@@ -76,9 +76,6 @@
 				<label for="right_name">Right Name
 					<input type="text" name="right_name" id="right_name" placeholder="<?php echo $right_name_placeholder; ?>" />
 				</label>
-
-				<h2>Match Details</h2>
-
 				<label for="left_score">Left Score
 					<input type="number" name="left_score" id="left_score" min="0" max="3" placeholder="<?php echo $left_score_placeholder; ?>" />
 				</label>
@@ -95,8 +92,12 @@
 						<option disabled selected value=""><?php echo $right_character_name_placeholder; ?></option>
 					</select>
 				</label>
-				<img id="left_character_image" src="overlay_files/left_character.png" />
-				<img id="right_character_image" src="overlay_files/right_character.png" />
+				<picture>
+					<img id="left_character_image" src="overlay_files/left_character.png" alt="Left Character Image" width="285" height="143" />
+				</picture>
+				<picture>
+					<img id="right_character_image" src="overlay_files/right_character.png" alt="Right Character Image" width="285" height="143" />
+				</picture>
 			</aside>
 
 			<div>

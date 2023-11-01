@@ -20,13 +20,16 @@ section {
   display: grid;
   place-items: center; }
   section form {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     display: grid;
     gap: 2em;
     grid-template-columns: 1fr;
     margin: 0 0 2em 0;
     padding: 1.5em 3em;
     width: 60%; }
+    @media screen and (max-width: 950px) {
+      section form {
+        width: 90%; } }
     section form input:focus,
     section form input[type=submit]:focus,
     section form button:focus {
@@ -67,48 +70,38 @@ section {
     section form select [disabled] {
       color: #aaa; }
     section form select option {
-      color: black; }
+      color: #000; }
     section form aside {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 2em 1em; }
-      section form aside h2 {
-        grid-column: span 2; }
-      section form aside #form-reset {
-        grid-column: 3 / span 1; }
-      section form aside .set-swap {
-        grid-column: 2; }
-      section form aside .match-swap {
-        grid-row: 1 / span 3;
-        grid-column: 2 / span 1; }
       @media screen and (max-width: 950px) {
         section form aside {
           grid-template-columns: unset;
           grid-template-rows: 1fr; }
-          section form aside .set-swap,
-          section form aside .match-swap {
-            grid-row: unset;
-            grid-column: unset; }
           section form aside #form-reset {
             order: 1; }
-          section form aside #heading {
+          section form aside h2 {
             order: 2; }
-          section form aside label[for=left_score] {
+          section form aside label[for=left_name] {
             order: 1; }
-          section form aside label[for=left_character] {
+          section form aside label[for=left_score] {
             order: 2; }
-          section form aside #left_character_image {
+          section form aside label[for=left_character] {
             order: 3; }
-          section form aside .match-swap {
+          section form aside #left_character_image {
             order: 4; }
-          section form aside label[for=right_score] {
+          section form aside label[for=right_name] {
             order: 5; }
-          section form aside label[for=right_character] {
+          section form aside label[for=right_score] {
             order: 6; }
+          section form aside label[for=right_character] {
+            order: 7; }
           section form aside #right_character_image {
-            order: 7; } }
+            order: 8; } }
       section form aside img {
         width: 100%;
+        height: auto;
         filter: grayscale(1);
         transition: filter 0.25s ease; }
     section form div {
