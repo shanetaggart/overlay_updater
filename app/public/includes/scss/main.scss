@@ -94,7 +94,40 @@ section {
             }
         }
 
-        input[type="submit"],
+        input[type=number] {
+            &::-webkit-inner-spin-button {
+                display: none;
+            }
+        }
+
+        .score-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            margin: 0;
+            padding: 0;
+
+            .score-buttons {
+                display: grid;
+                place-items: center;
+                cursor: pointer;
+                background: #fff;
+                color: #000;
+                border: 2px solid transparent;
+                transition: background-color $transition, border $transition, color $transition;
+
+                &:hover {
+                    color: #fff;
+                    border-color: $light-blue;
+                    background-color: $navy;
+                }
+            }
+
+            input[type=number] {
+                text-align: center;
+            }
+        }
+
+        input[type=submit],
         button {
             border: 2px solid transparent;
 

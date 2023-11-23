@@ -1,4 +1,11 @@
 window.addEventListener('load', (event) => {
+
+    // Set event constants.
+    const changeEvent = new Event('change');
+
+    // Query and store the <form> element.
+    const mainForm = document.getElementById('form');
+
     // Query and store the two <select> elements that need <option> elements appended.
     let characterSelectLists = document.querySelectorAll('.characters');
 
@@ -114,8 +121,7 @@ window.addEventListener('load', (event) => {
                 if (!element.value) {
                     let optionID = document.getElementById(element.firstElementChild.innerText);
                     element.value = optionID.value;
-                    const event = new Event('change');
-                    element.dispatchEvent(event);
+                    element.dispatchEvent(changeEvent);
                 }
             }
         });
@@ -153,5 +159,35 @@ window.addEventListener('load', (event) => {
         } else {
             rightCharacterImage.src = '../assets/characters/right/' + rightCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
         }
+    });
+
+    const plusAndMinusButtons = document.querySelectorAll('.score-wrapper .score-buttons');
+    console.log(plusAndMinusButtons);
+
+    plusAndMinusButtons.forEach((button) => {
+        button.addEventListener('click', (event) => {
+            
+            if (button.classList.contains('left')) {
+
+                leftScore.value ? null: leftScore.value = parseInt(leftScore.placeholder);
+
+                if (button.classList.contains('minus')) {
+                    leftScore.stepDown();
+                } else if (button.classList.contains('plus')) {
+                    leftScore.stepUp();
+                }
+            } else if (button.classList.contains('right')) {
+
+                rightScore.value ? null: rightScore.value = parseInt(rightScore.placeholder);
+
+                if (button.classList.contains('minus')) {
+                    rightScore.stepDown();
+                } else if (button.classList.contains('plus')) {
+                    rightScore.stepUp();
+                }
+            }
+
+            mainForm.submit();
+        });
     });
 });

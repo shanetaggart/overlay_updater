@@ -65,10 +65,31 @@ section {
     section form button:hover,
     section form select:hover {
       cursor: pointer; }
-    section form input[type="submit"],
+    section form input[type=number]::-webkit-inner-spin-button {
+      display: none; }
+    section form .score-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      margin: 0;
+      padding: 0; }
+      section form .score-wrapper .score-buttons {
+        display: grid;
+        place-items: center;
+        cursor: pointer;
+        background: #fff;
+        color: #000;
+        border: 2px solid transparent;
+        transition: background-color 0.25s ease, border 0.25s ease, color 0.25s ease; }
+        section form .score-wrapper .score-buttons:hover {
+          color: #fff;
+          border-color: #2085e8;
+          background-color: #002f5f; }
+      section form .score-wrapper input[type=number] {
+        text-align: center; }
+    section form input[type=submit],
     section form button {
       border: 2px solid transparent; }
-      section form input[type="submit"]:hover,
+      section form input[type=submit]:hover,
       section form button:hover {
         color: #fff;
         border-color: #2085e8;
