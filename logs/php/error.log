@@ -450,3 +450,29 @@ Stack trace:
 [23-Nov-2023 20:24:40 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
 [23-Nov-2023 20:24:40 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
 [23-Nov-2023 20:24:40 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[23-Nov-2023 21:23:21 UTC] PHP Parse error:  syntax error, unexpected variable "$best_of_placeholder" in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[23-Nov-2023 21:24:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: explode() expects at least 2 arguments, 1 given in C:\Users\User\Local Sites\overlay-updater\app\public\index.php:43
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\index.php(43): explode('YTS | MobMarMin...')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 43
+[23-Nov-2023 21:24:59 UTC] PHP Warning:  Array to string conversion in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 43
+[23-Nov-2023 21:29:34 UTC] PHP Fatal error:  Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in C:\Users\User\Local Sites\overlay-updater\app\public\index.php:45
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\index.php(45): trim(Array)
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 45
+[23-Nov-2023 21:30:21 UTC] PHP Warning:  Array to string conversion in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 45
+[23-Nov-2023 21:30:50 UTC] PHP Warning:  Undefined variable $player in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 45
+[23-Nov-2023 21:30:50 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 45
+[23-Nov-2023 21:33:05 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[23-Nov-2023 21:33:05 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[23-Nov-2023 21:33:05 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[23-Nov-2023 21:33:05 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[23-Nov-2023 21:33:05 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[23-Nov-2023 21:35:55 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[23-Nov-2023 21:35:55 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[23-Nov-2023 21:35:55 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[23-Nov-2023 21:35:55 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[23-Nov-2023 21:35:55 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[23-Nov-2023 21:35:55 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25

@@ -6,7 +6,7 @@ window.addEventListener('load', (event) => {
     // Query and store the <form> element.
     const mainForm = document.getElementById('form');
 
-    // Query and store the two <select> elements that need <option> elements appended.
+    // Query and store the two <select> elements that need <option> elements appended for character names.
     let characterSelectLists = document.querySelectorAll('.characters');
 
     // Iterate through the <select> elements.
@@ -161,9 +161,10 @@ window.addEventListener('load', (event) => {
         }
     });
 
+    // Query and store the score buttons.
     const plusAndMinusButtons = document.querySelectorAll('.score-wrapper .score-buttons');
-    console.log(plusAndMinusButtons);
 
+    // Determine if it was a plus/minus and left/right button and perform the appropriate calculation.
     plusAndMinusButtons.forEach((button) => {
         button.addEventListener('click', (event) => {
             
@@ -187,6 +188,7 @@ window.addEventListener('load', (event) => {
                 }
             }
 
+            // Immediately submit the form.
             mainForm.submit();
         });
     });

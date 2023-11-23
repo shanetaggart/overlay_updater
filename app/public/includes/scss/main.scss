@@ -35,6 +35,38 @@ section {
     display: grid;
     place-items: center;
 
+    .breadcrumb {
+        margin: 0 0 2em 0;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .instructions {
+        text-align: center;
+    }
+    
+    .bold {
+        font-weight: 700;
+    }
+
+    .italics {
+        font-style: italic;
+    }
+
+    .underlined {
+        text-decoration: underline;
+    }
+
+    textarea {
+        width: 100%;
+        height: 50vh;
+        font-size: 1.5rem;
+        max-width: 100%;
+        resize: vertical;
+    }
+
     form {
         border: 2px solid #fff;
         display: grid;
@@ -42,7 +74,11 @@ section {
         grid-template-columns: 1fr;
         margin: 0 0 2em 0;
         padding: 1.5em 3em;
-        width: 60%;
+        width: 100%;
+        
+        &:not(#player_names_form) {
+            width: 60%;
+        }
 
         @media screen and (max-width: 950px) {
             width: 90%;
@@ -50,8 +86,23 @@ section {
 
         input,
         input[type=submit],
-        button {
+        button, 
+        a {
             border: 3px solid transparent;
+            background-color: #fff; 
+            color: #000;
+            display: grid;
+            place-items: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background-color $transition, border $transition, color $transition;
+
+            &:hover {
+                color: #fff;
+                border-color: $light-blue;
+                background-color: $navy;
+            }
+
             &:focus {
                 background-color: $navy;
                 color: #fff;
@@ -172,6 +223,21 @@ section {
                 label[for=right_score] { order: 6; }
                 label[for=right_character] { order: 7; }
                 #right_character_image { order: 8; }
+            }
+
+            button {
+                width: 100%;
+            }
+
+            hr {
+                width: 100%;
+                overflow: hidden;
+                display: none;
+                
+                @media screen and (min-width: 951px) {
+                    display: block;
+                    grid-column: span 2;
+                }
             }
 
             img {
