@@ -49,7 +49,7 @@
 
 		<h1>Overlay Updater</h1>
 
-		<form action="/includes/update_data.php" method="post">
+		<form action="/includes/update_data.php" method="post" id="form">
 
 			<aside>
 				<h2>Match Details</h2>
@@ -77,10 +77,18 @@
 					<input type="text" name="right_name" id="right_name" placeholder="<?php echo $right_name_placeholder; ?>" />
 				</label>
 				<label for="left_score">Left Score
-					<input type="number" name="left_score" id="left_score" min="0" max="3" placeholder="<?php echo $left_score_placeholder; ?>" />
+					<div class="score-wrapper">
+						<span class="score-buttons minus left">&minus;</span>
+						<input type="number" name="left_score" id="left_score" class="score" min="0" max="3" placeholder="<?php echo $left_score_placeholder; ?>" />
+						<span class="score-buttons plus left">&plus;</span>
+					</div>
 				</label>
 				<label for="right_score">Right Score
-					<input type="number" name="right_score" id="right_score" min="0" max="3" placeholder="<?php echo $right_score_placeholder; ?>" />
+					<div class="score-wrapper">
+						<span class="score-buttons minus right">&minus;</span>
+						<input type="number" name="right_score" id="right_score" class="score" min="0" max="3" placeholder="<?php echo $right_score_placeholder; ?>" />
+						<span class="score-buttons plus right">&plus;</span>
+					</div>
 				</label>
 				<label for="left_character">Left Character
 					<select class="characters" name="left_character" id="left_character" required>
