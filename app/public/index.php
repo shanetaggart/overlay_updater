@@ -41,7 +41,7 @@
 	$set_name_placeholder = file_get_contents($set_name_file);
 
 	$player_names = file_get_contents($player_names_file);
-	$player_names = explode('<br />', nl2br(trim($player_names)));
+	$player_names = explode("\n", trim($player_names));
 
 	?>
 
