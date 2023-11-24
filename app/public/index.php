@@ -27,6 +27,7 @@
 	$right_name_file = 'overlay_files/right_name.txt';
 	$right_score_file = 'overlay_files/right_score.txt';
 	$set_name_file = 'overlay_files/set_name.txt';
+	$player_names_file = 'overlay_files/data/player_names.txt';
 
 	$best_of_placeholder = file_get_contents($best_of_file);
 	$left_character_placeholder = file_get_contents($left_character_file);
@@ -39,6 +40,9 @@
 	$right_score_placeholder = file_get_contents($right_score_file);
 	$set_name_placeholder = file_get_contents($set_name_file);
 
+	$player_names = file_get_contents($player_names_file);
+	$player_names = explode("\n", trim($player_names));
+
 	?>
 
 	<section>
@@ -49,12 +53,18 @@
 
 		<h1>Overlay Updater</h1>
 
+		<p class="breadcrumb"><a href="index.php">Overlay Updater</a> / <a href="player_names.php">Set Player Names</a></p>
+
 		<form action="/includes/update_data.php" method="post" id="form">
 
 			<aside>
-				<h2>Match Details</h2>
+				<a href="player_names.php" id="set-player-names">Set Player Names</a>
 				<button id="form-reset">Reset</button>
+				<hr>
 			</aside>
+
+
+			<h2>Match Details</h2>
 
 			<label for="set_name">Set Name
 				<input type="text" name="set_name" id="set_name" maxlength="16" placeholder="<?php echo $set_name_placeholder; ?>" />
@@ -71,10 +81,24 @@
 
 			<aside>
 				<label for="left_name">Left Name
-					<input type="text" name="left_name" id="left_name" placeholder="<?php echo $left_name_placeholder; ?>" />
+					<select class="names" name="left_name" id="left_name">
+						<option disabled selected value=""><?php echo $left_name_placeholder; ?></option>
+						<?php
+						foreach ($player_names as $player) {
+							echo '<option value="' . $player . '">' . $player . '</option>';
+						}
+						?>
+					</select>
 				</label>
 				<label for="right_name">Right Name
-					<input type="text" name="right_name" id="right_name" placeholder="<?php echo $right_name_placeholder; ?>" />
+					<select class="names" name="right_name" id="right_name">
+						<option disabled selected value=""><?php echo $right_name_placeholder; ?></option>
+						<?php
+						foreach ($player_names as $player) {
+							echo '<option value="' . $player . '">' . $player . '</option>';
+						}
+						?>
+					</select>
 				</label>
 				<label for="left_score">Left Score
 					<div class="score-wrapper">

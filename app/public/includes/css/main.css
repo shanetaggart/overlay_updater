@@ -21,6 +21,24 @@ body {
 section {
   display: grid;
   place-items: center; }
+  section .breadcrumb {
+    margin: 0 0 2em 0; }
+    section .breadcrumb a {
+      color: #fff; }
+  section .instructions {
+    text-align: center; }
+  section .bold {
+    font-weight: 700; }
+  section .italics {
+    font-style: italic; }
+  section .underlined {
+    text-decoration: underline; }
+  section textarea {
+    width: 100%;
+    height: 50vh;
+    font-size: 1.5rem;
+    max-width: 100%;
+    resize: vertical; }
   section form {
     border: 2px solid #fff;
     display: grid;
@@ -28,17 +46,35 @@ section {
     grid-template-columns: 1fr;
     margin: 0 0 2em 0;
     padding: 1.5em 3em;
-    width: 60%; }
+    width: 100%; }
+    section form:not(#player_names_form) {
+      width: 60%; }
     @media screen and (max-width: 950px) {
       section form {
         width: 90%; } }
     section form input,
     section form input[type=submit],
-    section form button {
-      border: 3px solid transparent; }
+    section form button,
+    section form a {
+      border: 3px solid transparent;
+      background-color: #fff;
+      color: #000;
+      display: grid;
+      place-items: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background-color 0.25s ease, border 0.25s ease, color 0.25s ease; }
+      section form input:hover,
+      section form input[type=submit]:hover,
+      section form button:hover,
+      section form a:hover {
+        color: #fff;
+        border-color: #2085e8;
+        background-color: #002f5f; }
       section form input:focus,
       section form input[type=submit]:focus,
-      section form button:focus {
+      section form button:focus,
+      section form a:focus {
         background-color: #002f5f;
         color: #fff;
         border-color: #2085e8;
@@ -128,6 +164,16 @@ section {
             order: 7; }
           section form aside #right_character_image {
             order: 8; } }
+      section form aside button {
+        width: 100%; }
+      section form aside hr {
+        width: 100%;
+        overflow: hidden;
+        display: none; }
+        @media screen and (min-width: 951px) {
+          section form aside hr {
+            display: block;
+            grid-column: span 2; } }
       section form aside img {
         width: 100%;
         height: auto;
