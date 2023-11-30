@@ -53,6 +53,12 @@ section {
       section form {
         width: 90%; } }
     section form input,
+    section form button,
+    section form a,
+    section form select,
+    section form option {
+      font-size: 1rem; }
+    section form input,
     section form input[type=submit],
     section form button,
     section form a {

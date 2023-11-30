@@ -40,6 +40,12 @@
 	$right_score_placeholder = file_get_contents($right_score_file);
 	$set_name_placeholder = file_get_contents($set_name_file);
 
+	if (!file_exists($player_names_file)) {
+		$player_names = fopen($player_names_file, "w");
+		fwrite($player_names, "PLACEHOLDER NAMES\nSET PLAYER NAMES");
+		fclose($player_names);
+	}
+
 	$player_names = file_get_contents($player_names_file);
 	$player_names = explode("\n", trim($player_names));
 

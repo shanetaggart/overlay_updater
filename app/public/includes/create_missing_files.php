@@ -53,6 +53,11 @@ if (!file_exists($set_name_path)) {
     array_push($temp_files, $temp_file_sn);
 }
 
+if (!file_exists($player_names_path)) {
+    $temp_file_pn = fopen($player_names_path, 'w');
+    array_push($temp_files, $temp_file_pn);
+}
+
 foreach ($temp_files as $file) {
     fclose($file);
 }

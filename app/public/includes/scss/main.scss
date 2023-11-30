@@ -85,6 +85,14 @@ section {
         }
 
         input,
+        button,
+        a,
+        select,
+        option {
+            font-size: 1rem;
+        }
+
+        input,
         input[type=submit],
         button, 
         a {

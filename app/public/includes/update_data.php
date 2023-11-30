@@ -37,6 +37,7 @@ $right_character_name_path = '../overlay_files/right_character_name.txt';
 $right_name_path = '../overlay_files/right_name.txt';
 $right_score_path = '../overlay_files/right_score.txt';
 $set_name_path = '../overlay_files/set_name.txt';
+$player_names_path = '../overlay_files/data/player_names.txt';
 
 // Create all missing files in overlay_files.
 include 'create_missing_files.php';
