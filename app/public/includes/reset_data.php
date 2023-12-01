@@ -25,6 +25,9 @@ $right_character_name_path = '../overlay_files/right_character_name.txt';
 $right_name_path = '../overlay_files/right_name.txt';
 $right_score_path = '../overlay_files/right_score.txt';
 $set_name_path = '../overlay_files/set_name.txt';
+$left_commentator_name_path = '../overlay_files/data/left_commentator_name.txt';
+$right_commentator_name_path = '../overlay_files/data/right_commentator_name.txt';
+$player_names_path = '../overlay_files/data/player_names.txt';
 
 // Create all necessary files in overlay_files.
 $best_of_file = fopen($best_of_path, 'w');
@@ -37,6 +40,9 @@ $right_character_name_file = fopen($right_character_name_path, 'w');
 $right_name_file = fopen($right_name_path, 'w');
 $right_score_file = fopen($right_score_path, 'w');
 $set_name_file = fopen($set_name_path, 'w');
+$left_commentator_name_file = fopen($left_commentator_name_path, 'w');
+$right_commentator_name_file = fopen($right_commentator_name_path, 'w');
+$player_names_file = fopen($player_names_path, 'w');
 
 // Store the open files for easier access.
 $open_files = [];
@@ -51,7 +57,10 @@ array_push(
     $right_character_name_file,
     $right_name_file,
     $right_score_file,
-    $set_name_file
+    $set_name_file,
+    $left_commentator_name_file,
+    $right_commentator_name_file,
+    $player_names_file
 );
 
 // Write the default data for the text files.
@@ -61,6 +70,9 @@ fwrite($right_name_file, 'PLAYER 2');
 fwrite($right_score_file, '0');
 fwrite($set_name_file, 'WINNER\'S FINALS');
 fwrite($left_score_file, '0');
+fwrite($left_commentator_name_file, "LEFT COMMENTATOR");
+fwrite($right_commentator_name_file, "RIGHT COMMENTATOR");
+fwrite($player_names_file, "PLAYER 1\nPLAYER 2");
 
 // Create a 3D array of character rivalries.
 $character_rivals = [

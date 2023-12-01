@@ -63,12 +63,7 @@
 
 		<form action="/includes/update_data.php" method="post" id="form">
 
-			<aside>
-				<a href="player_names.php" id="set-player-names">Set Player Names</a>
-				<button id="form-reset">Reset</button>
-				<hr>
-			</aside>
-
+			<button id="form-reset">Reset</button>
 
 			<h2>Match Details</h2>
 
@@ -87,21 +82,21 @@
 
 			<aside>
 				<label for="left_name">Left Name
-					<select class="names" name="left_name" id="left_name">
+					<select class="names" name="left_name" id="left_name" required>
 						<option disabled selected value=""><?php echo $left_name_placeholder; ?></option>
 						<?php
 						foreach ($player_names as $player) {
-							echo '<option value="' . $player . '">' . $player . '</option>';
+							echo '<option value="' . $player . '" id="' . $player . '">' . $player . '</option>';
 						}
 						?>
 					</select>
 				</label>
 				<label for="right_name">Right Name
-					<select class="names" name="right_name" id="right_name">
+					<select class="names" name="right_name" id="right_name" required>
 						<option disabled selected value=""><?php echo $right_name_placeholder; ?></option>
 						<?php
 						foreach ($player_names as $player) {
-							echo '<option value="' . $player . '">' . $player . '</option>';
+							echo '<option value="' . $player . '" id="' . $player . '">' . $player . '</option>';
 						}
 						?>
 					</select>
