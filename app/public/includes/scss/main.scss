@@ -75,10 +75,6 @@ section {
         margin: 0 0 2em 0;
         padding: 1.5em 3em;
         width: 100%;
-        
-        &:not(#player_names_form) {
-            width: 60%;
-        }
 
         @media screen and (max-width: 950px) {
             width: 90%;
