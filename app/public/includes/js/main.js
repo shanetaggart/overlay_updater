@@ -1,5 +1,13 @@
 window.addEventListener('load', (event) => {
 
+    // Determine if this is the singles or doubles page.
+    const page = window.location.href.toString().split("/").pop();
+
+    let singles = false;
+    let doubles = false;
+
+    page == 'index.php' ? singles = true: doubles = true;
+
     // Set event constants.
     const changeEvent = new Event('change');
 
@@ -34,9 +42,11 @@ window.addEventListener('load', (event) => {
         };
 
         formInputs.forEach((input) => {
-            input.addEventListener('focus', (event) => {
-                input.scrollIntoView(scrollOptions);
-            });
+            if (input.type != 'checkbox') {
+                input.addEventListener('focus', (event) => {
+                    input.scrollIntoView(scrollOptions);
+                });
+            }
         });
     }
 
@@ -44,10 +54,12 @@ window.addEventListener('load', (event) => {
     const resetButton  = document.getElementById('form-reset');
     
     // When the reset button is clicked, run the reset_data script.
-    resetButton.addEventListener('click', (event) => {
-        event.preventDefault();
-        window.location.href = "includes/reset_data.php";
-    });
+    if (singles) {
+        resetButton.addEventListener('click', (event) => {
+            event.preventDefault();
+            window.location.href = "includes/reset_data.php";
+        });
+    }
 
     // Query and store the submit button.
     const submitButton  = document.getElementById('form-submit');
@@ -76,15 +88,17 @@ window.addEventListener('load', (event) => {
     const rightCharacterImagePath = '../assets/characters/right/';
 
     // When the <select> elements change, change the image source and remove the grayscale filter.
-    leftCharacterSelect.addEventListener('change', (event) => {
-        leftCharacterImage.src = leftCharacterImagePath + leftCharacterSelect.value.replaceAll(' ', '') + '.png';
-        leftCharacterImage.style.filter = 'grayscale(0)';
-    });
-
-    rightCharacterSelect.addEventListener('change', (event) => {
-        rightCharacterImage.src = rightCharacterImagePath + rightCharacterSelect.value.replaceAll(' ', '') + '.png';
-        rightCharacterImage.style.filter = 'grayscale(0)';
-    });
+    if (singles) {
+        leftCharacterSelect.addEventListener('change', (event) => {
+            leftCharacterImage.src = leftCharacterImagePath + leftCharacterSelect.value.replaceAll(' ', '') + '.png';
+            leftCharacterImage.style.filter = 'grayscale(0)';
+        });
+    
+        rightCharacterSelect.addEventListener('change', (event) => {
+            rightCharacterImage.src = rightCharacterImagePath + rightCharacterSelect.value.replaceAll(' ', '') + '.png';
+            rightCharacterImage.style.filter = 'grayscale(0)';
+        });
+    }
 
     // Query and store the swap button.
     const swapButton = document.getElementById('swap');
@@ -109,57 +123,59 @@ window.addEventListener('load', (event) => {
     );
 
     // When the swap button is clicked, convert placeholder data to actual data, and swap the left and right.
-    swapButton.addEventListener('click', (event) => {
-        event.preventDefault();
-
-        leftAndRightElements.forEach((element) => {
-            if (element.tagName !== 'SELECT') {
-                if (!element.value) {
-                    element.value = element.placeholder;
+    if (singles) {
+        swapButton.addEventListener('click', (event) => {
+            event.preventDefault();
+    
+            leftAndRightElements.forEach((element) => {
+                if (element.tagName !== 'SELECT') {
+                    if (!element.value) {
+                        element.value = element.placeholder;
+                    }
+                } else {
+                    if (!element.value) {
+                        let optionID = document.getElementById(element.firstElementChild.innerText);
+                        element.value = optionID.value;
+                        element.dispatchEvent(changeEvent);
+                    }
                 }
+            });
+    
+            // Swap the data for Names.
+            let tempName = leftName.value;
+            leftName.value = rightName.value;
+            rightName.value = tempName;
+    
+            // Swap the data for Scores.
+            let tempScore = leftScore.value;
+            leftScore.value = rightScore.value;
+            rightScore.value = tempScore;
+    
+            // Swap the data for Characters.
+            if (leftCharacter.value || rightCharacter.value) {
+                let tempCharacter = leftCharacter.value;
+                leftCharacter.value = rightCharacter.value;
+                rightCharacter.value = tempCharacter;
+            } else if (!leftCharacter.value && !rightCharacter.value) {
+                let tempCharacter = leftCharacter.firstElementChild.innerText;
+                leftCharacter.firstElementChild.innerText = rightCharacter.firstElementChild.innerText;
+                rightCharacter.firstElementChild.innerText = tempCharacter;
+            }
+    
+            // Swap the data for Character Images.
+            if (leftCharacter.value) {
+                leftCharacterImage.src = '../assets/characters/left/' + leftCharacter.value.replaceAll(' ', '') + '.png';
             } else {
-                if (!element.value) {
-                    let optionID = document.getElementById(element.firstElementChild.innerText);
-                    element.value = optionID.value;
-                    element.dispatchEvent(changeEvent);
-                }
+                leftCharacterImage.src = '../assets/characters/left/' + leftCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
+            }
+    
+            if (rightCharacter.value) {
+                rightCharacterImage.src = '../assets/characters/right/' + rightCharacter.value.replaceAll(' ', '') + '.png';
+            } else {
+                rightCharacterImage.src = '../assets/characters/right/' + rightCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
             }
         });
-
-        // Swap the data for Names.
-        let tempName = leftName.value;
-        leftName.value = rightName.value;
-        rightName.value = tempName;
-
-        // Swap the data for Scores.
-        let tempScore = leftScore.value;
-        leftScore.value = rightScore.value;
-        rightScore.value = tempScore;
-
-        // Swap the data for Characters.
-        if (leftCharacter.value || rightCharacter.value) {
-            let tempCharacter = leftCharacter.value;
-            leftCharacter.value = rightCharacter.value;
-            rightCharacter.value = tempCharacter;
-        } else if (!leftCharacter.value && !rightCharacter.value) {
-            let tempCharacter = leftCharacter.firstElementChild.innerText;
-            leftCharacter.firstElementChild.innerText = rightCharacter.firstElementChild.innerText;
-            rightCharacter.firstElementChild.innerText = tempCharacter;
-        }
-
-        // Swap the data for Character Images.
-        if (leftCharacter.value) {
-            leftCharacterImage.src = '../assets/characters/left/' + leftCharacter.value.replaceAll(' ', '') + '.png';
-        } else {
-            leftCharacterImage.src = '../assets/characters/left/' + leftCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
-        }
-
-        if (rightCharacter.value) {
-            rightCharacterImage.src = '../assets/characters/right/' + rightCharacter.value.replaceAll(' ', '') + '.png';
-        } else {
-            rightCharacterImage.src = '../assets/characters/right/' + rightCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
-        }
-    });
+    }
 
     // Query and store the score buttons.
     const plusAndMinusButtons = document.querySelectorAll('.score-wrapper .score-buttons');

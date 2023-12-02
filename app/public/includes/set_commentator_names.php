@@ -9,8 +9,8 @@ $right_commentator_name_path = '../overlay_files/data/right_commentator_name.txt
 $left_commentator_name_file = fopen($left_commentator_name_path, "w");
 $right_commentator_name_file = fopen($right_commentator_name_path, "w");
 
-fwrite($left_commentator_name_file, $left_commentator_name);
-fwrite($right_commentator_name_file, $right_commentator_name);
+fwrite($left_commentator_name_file, strToUpper($left_commentator_name));
+fwrite($right_commentator_name_file, strToUpper($right_commentator_name));
 
 fclose($left_commentator_name_file);
 fclose($right_commentator_name_file);

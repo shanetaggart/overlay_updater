@@ -20,7 +20,11 @@ body {
 
 section {
   display: grid;
-  place-items: center; }
+  place-items: center;
+  width: 60vw; }
+  @media screen and (max-width: 950px) {
+    section {
+      width: 90vw; } }
   section .breadcrumb {
     margin: 0 0 2em 0; }
     section .breadcrumb a {
@@ -39,6 +43,26 @@ section {
     font-size: 1.5rem;
     max-width: 100%;
     resize: vertical; }
+  section nav {
+    font-size: 1.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    section nav a {
+      background: #002f5f;
+      color: #fff;
+      padding: 1em 2em;
+      text-decoration: none;
+      border: 2px solid transparent;
+      transition: all 0.25s ease; }
+      section nav a:hover {
+        border: 2px solid #2085e8; }
+    @media screen and (max-width: 950px) {
+      section nav {
+        flex-direction: column;
+        text-align: center; }
+        section nav a {
+          margin: 0.5em 0; } }
   section form {
     border: 2px solid #fff;
     display: grid;
@@ -158,7 +182,7 @@ section {
             order: 2; }
           section form aside label[for=left_character] {
             order: 3; }
-          section form aside #left_character_image {
+          section form aside .left_character_image {
             order: 4; }
           section form aside label[for=right_name] {
             order: 5; }
@@ -166,8 +190,10 @@ section {
             order: 6; }
           section form aside label[for=right_character] {
             order: 7; }
-          section form aside #right_character_image {
+          section form aside .right_character_image {
             order: 8; } }
+      section form aside.doubles {
+        gap: 0; }
       section form aside button {
         width: 100%; }
       section form aside hr {
@@ -183,6 +209,17 @@ section {
         height: auto;
         filter: grayscale(1);
         transition: filter 0.25s ease; }
+      section form aside .team-members {
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid #fff; }
+        section form aside .team-members label {
+          place-items: center; }
+        section form aside .team-members .team-number {
+          grid-column: span 2;
+          text-align: center; }
+        section form aside .team-members .team-player input {
+          width: 3em;
+          height: 3em; }
     section form div {
       position: sticky;
       bottom: 0;
@@ -192,6 +229,24 @@ section {
       display: grid;
       grid-template-columns: 8fr 1fr;
       gap: 1em; }
+      section form div.submit-doubles, section form div.doubles-player {
+        grid-template-columns: 1fr; }
+      section form div.doubles-player {
+        padding: 1em;
+        margin: 1em 0; }
+        @media screen and (min-width: 951px) {
+          section form div.doubles-player {
+            padding: 1em 2em;
+            margin: 0; }
+            section form div.doubles-player-1 {
+              border-bottom: 2px solid #fff;
+              border-right: 2px solid #fff; }
+            section form div.doubles-player-2 {
+              border-bottom: 2px solid #fff; }
+            section form div.doubles-player-3 {
+              border-right: 2px solid #fff; }
+            section form div.doubles-player-4 {
+              border: none; } }
       section form div input[type=submit] {
         width: 100%;
         background: #fff; }
