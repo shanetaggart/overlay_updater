@@ -638,3 +638,645 @@ Stack trace:
 [01-Dec-2023 23:11:50 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
 [01-Dec-2023 23:11:50 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25
 [01-Dec-2023 23:11:54 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[01-Dec-2023 23:29:03 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 107
+[01-Dec-2023 23:29:03 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 114
+[01-Dec-2023 23:29:42 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 127
+[01-Dec-2023 23:29:42 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 134
+[01-Dec-2023 23:31:02 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 86
+[01-Dec-2023 23:31:02 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 96
+[01-Dec-2023 23:31:02 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 106
+[01-Dec-2023 23:31:02 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 116
+[01-Dec-2023 23:31:02 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 127
+[01-Dec-2023 23:31:02 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 134
+[01-Dec-2023 23:32:42 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 88
+[01-Dec-2023 23:32:42 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 99
+[01-Dec-2023 23:32:42 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 109
+[01-Dec-2023 23:32:42 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 119
+[01-Dec-2023 23:32:42 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 129
+[01-Dec-2023 23:32:42 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 140
+[01-Dec-2023 23:32:42 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 147
+[01-Dec-2023 23:33:54 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 95
+[01-Dec-2023 23:33:54 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 105
+[01-Dec-2023 23:33:54 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 115
+[01-Dec-2023 23:33:54 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 125
+[01-Dec-2023 23:33:54 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 136
+[01-Dec-2023 23:33:54 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 143
+[01-Dec-2023 23:34:10 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 95
+[01-Dec-2023 23:34:10 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 105
+[01-Dec-2023 23:34:10 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 115
+[01-Dec-2023 23:34:10 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 125
+[01-Dec-2023 23:34:10 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 136
+[01-Dec-2023 23:34:10 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 143
+[01-Dec-2023 23:34:48 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 97
+[01-Dec-2023 23:34:48 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 107
+[01-Dec-2023 23:34:48 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 117
+[01-Dec-2023 23:34:48 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 127
+[01-Dec-2023 23:34:48 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 138
+[01-Dec-2023 23:34:48 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 145
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 97
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 107
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 117
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 127
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 138
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 145
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 97
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 107
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 117
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 127
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 138
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 145
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 97
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 107
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 117
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 127
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 138
+[01-Dec-2023 23:34:50 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 145
+[01-Dec-2023 23:34:59 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 97
+[01-Dec-2023 23:34:59 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 107
+[01-Dec-2023 23:34:59 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 117
+[01-Dec-2023 23:34:59 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 127
+[01-Dec-2023 23:34:59 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 138
+[01-Dec-2023 23:34:59 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 145
+[01-Dec-2023 23:35:16 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 97
+[01-Dec-2023 23:35:16 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 107
+[01-Dec-2023 23:35:16 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 117
+[01-Dec-2023 23:35:16 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 127
+[01-Dec-2023 23:35:16 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 138
+[01-Dec-2023 23:35:16 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 145
+[01-Dec-2023 23:35:36 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 95
+[01-Dec-2023 23:35:36 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 105
+[01-Dec-2023 23:35:36 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 115
+[01-Dec-2023 23:35:36 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 125
+[01-Dec-2023 23:35:36 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 136
+[01-Dec-2023 23:35:36 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 143
+[01-Dec-2023 23:35:56 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 95
+[01-Dec-2023 23:35:56 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 105
+[01-Dec-2023 23:35:56 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 115
+[01-Dec-2023 23:35:56 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 125
+[01-Dec-2023 23:35:56 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 136
+[01-Dec-2023 23:35:56 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 143
+[01-Dec-2023 23:36:03 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 95
+[01-Dec-2023 23:36:03 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 105
+[01-Dec-2023 23:36:03 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 115
+[01-Dec-2023 23:36:03 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 125
+[01-Dec-2023 23:36:03 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 136
+[01-Dec-2023 23:36:03 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 143
+[01-Dec-2023 23:36:15 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 95
+[01-Dec-2023 23:36:15 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 105
+[01-Dec-2023 23:36:15 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 115
+[01-Dec-2023 23:36:15 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 125
+[01-Dec-2023 23:36:15 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 136
+[01-Dec-2023 23:36:15 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 143
+[01-Dec-2023 23:36:26 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 104
+[01-Dec-2023 23:36:26 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 114
+[01-Dec-2023 23:36:26 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 124
+[01-Dec-2023 23:36:26 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 134
+[01-Dec-2023 23:36:26 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 145
+[01-Dec-2023 23:36:26 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 152
+[01-Dec-2023 23:36:47 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 101
+[01-Dec-2023 23:36:47 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 111
+[01-Dec-2023 23:36:47 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 121
+[01-Dec-2023 23:36:47 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 131
+[01-Dec-2023 23:36:47 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 142
+[01-Dec-2023 23:36:47 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 149
+[01-Dec-2023 23:37:12 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:37:12 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:37:12 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:37:12 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:37:12 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:37:12 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:38:18 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:38:18 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:38:18 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:38:18 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:38:18 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:38:18 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:38:51 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:38:51 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:38:51 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:38:51 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:38:51 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:38:51 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:40:28 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:40:28 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:40:28 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:40:28 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:40:28 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:40:28 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:40:48 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:40:48 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:40:48 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:40:48 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:40:48 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:40:48 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:41:14 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:41:14 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:41:14 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:41:14 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:41:14 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:41:14 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:41:44 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:41:44 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:41:44 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:41:44 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:41:44 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:41:44 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:41:58 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:41:58 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:41:58 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:41:58 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:41:58 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:41:58 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:42:12 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:42:12 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:42:12 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:42:12 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:42:12 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:42:12 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:42:41 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:42:41 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:42:41 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:42:41 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:42:41 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:42:41 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:42:45 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:42:45 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:42:45 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:42:45 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:42:45 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:42:45 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:44:01 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:44:01 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:44:01 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:44:01 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:44:01 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:44:01 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:44:12 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:44:12 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:44:12 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:44:12 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:44:12 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:44:12 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:44:48 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:44:48 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:44:48 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:44:48 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:44:48 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:44:48 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:44:54 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:44:54 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:44:54 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:44:54 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:44:54 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:44:54 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:45:22 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:45:22 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:45:22 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:45:22 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:45:22 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:45:22 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:46:40 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:46:40 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:46:40 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:46:40 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:46:40 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:46:40 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:47:05 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:47:05 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:47:05 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:47:05 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:47:05 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:47:05 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:48:38 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:48:38 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:48:38 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:48:38 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:48:38 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:48:38 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:49:08 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:49:08 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:49:08 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:49:08 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:49:08 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:49:08 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:49:16 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:49:16 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:49:16 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:49:16 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:49:16 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:49:16 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:49:44 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:49:44 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:49:44 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:49:44 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:49:44 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:49:44 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:50:16 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:50:16 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:50:16 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:50:16 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:50:16 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:50:16 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:50:23 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:50:23 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:50:23 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:50:23 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:50:23 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:50:23 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:50:36 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:50:36 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:50:36 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:50:36 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:50:36 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:50:36 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:50:46 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:50:46 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:50:46 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:50:46 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:50:46 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:50:46 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:51:19 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:51:19 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:51:19 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:51:19 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:51:19 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:51:19 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:52:12 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:52:12 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:52:12 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:52:12 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:52:12 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:52:12 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:52:33 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:52:33 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:52:33 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:52:33 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:52:33 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:52:33 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:53:00 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[01-Dec-2023 23:53:04 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:53:04 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:53:04 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:53:04 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:53:04 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:53:04 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:53:23 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:53:23 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:53:23 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:53:23 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:53:23 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:53:23 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:53:50 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:53:50 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:53:50 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:53:50 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:53:50 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:53:50 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:54:57 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:54:57 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:54:57 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:54:57 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:54:57 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:54:57 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:55:31 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:55:31 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:55:31 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:55:31 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:55:31 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:55:31 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:56:01 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:56:01 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:56:01 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:56:01 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:56:01 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:56:01 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:56:24 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:56:24 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:56:24 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:56:24 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:56:24 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:56:24 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:56:56 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:56:56 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:56:56 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:56:56 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:56:56 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:56:56 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:57:10 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:57:10 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:57:10 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:57:10 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:57:10 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:57:10 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:57:23 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:57:23 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:57:23 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:57:23 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:57:23 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:57:23 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:57:28 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:57:28 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:57:28 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:57:28 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:57:28 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:57:28 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:57:53 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:57:53 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:57:53 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:57:53 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:57:53 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:57:53 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:59:06 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:59:06 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:59:06 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:59:06 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:59:06 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:59:06 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:59:13 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:59:13 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:59:13 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:59:13 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:59:13 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:59:13 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:59:25 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:59:25 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:59:25 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:59:25 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:59:25 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:59:25 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[01-Dec-2023 23:59:43 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[01-Dec-2023 23:59:43 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[01-Dec-2023 23:59:43 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[01-Dec-2023 23:59:43 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 133
+[01-Dec-2023 23:59:43 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 144
+[01-Dec-2023 23:59:43 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 151
+[02-Dec-2023 00:01:08 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 87
+[02-Dec-2023 00:01:08 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 97
+[02-Dec-2023 00:01:08 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 107
+[02-Dec-2023 00:01:08 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 117
+[02-Dec-2023 00:01:08 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 128
+[02-Dec-2023 00:01:08 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 135
+[02-Dec-2023 00:04:19 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 93
+[02-Dec-2023 00:04:19 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[02-Dec-2023 00:04:19 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[02-Dec-2023 00:04:19 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "left_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 21
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 22
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25
+[02-Dec-2023 00:04:25 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 26
+[02-Dec-2023 00:04:29 UTC] PHP Warning:  Undefined variable $player_1_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 93
+[02-Dec-2023 00:04:29 UTC] PHP Warning:  Undefined variable $player_2_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 103
+[02-Dec-2023 00:04:29 UTC] PHP Warning:  Undefined variable $player_3_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 113
+[02-Dec-2023 00:04:29 UTC] PHP Warning:  Undefined variable $player_4_name_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 123
+[02-Dec-2023 00:12:58 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 19
+[02-Dec-2023 00:12:58 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 20
+[02-Dec-2023 00:12:58 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 21
+[02-Dec-2023 00:12:58 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:12:58 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:12:58 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:14:55 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 20
+[02-Dec-2023 00:14:55 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 21
+[02-Dec-2023 00:14:55 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:14:55 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:14:55 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:15:01 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 20
+[02-Dec-2023 00:15:01 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 21
+[02-Dec-2023 00:15:01 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:15:01 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:15:01 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:15:05 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 20
+[02-Dec-2023 00:15:05 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 21
+[02-Dec-2023 00:15:05 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:15:05 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:15:05 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:15:51 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 19
+[02-Dec-2023 00:15:51 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 20
+[02-Dec-2023 00:15:51 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 21
+[02-Dec-2023 00:15:51 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:15:51 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:15:51 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:16:41 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 20
+[02-Dec-2023 00:16:41 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 21
+[02-Dec-2023 00:16:41 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:16:41 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:16:41 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:18:29 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 20
+[02-Dec-2023 00:18:29 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 21
+[02-Dec-2023 00:18:29 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:18:29 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:18:29 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:19:46 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 20
+[02-Dec-2023 00:19:46 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 21
+[02-Dec-2023 00:19:46 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:19:46 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:19:46 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:02 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:20:02 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:02 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:14 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:20:14 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:14 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:17 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:20:17 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:17 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:26 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 11
+[02-Dec-2023 00:20:26 UTC] PHP Warning:  Undefined variable $left_character_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:26 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:12
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(12): fopen('', 'w')
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(31): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 12
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $left_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 48
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $left_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 49
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $left_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 53
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $left_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 54
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $right_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 58
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $right_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 59
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $right_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 63
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $right_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 64
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $left_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 74
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $left_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 75
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $left_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 80
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $left_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 81
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $right_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 85
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $right_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 86
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $right_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 91
+[02-Dec-2023 00:20:42 UTC] PHP Warning:  Undefined variable $right_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 92
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $left_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 48
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $left_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 49
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $left_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 53
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $left_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 54
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $right_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 58
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $right_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 59
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $right_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 63
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $right_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 64
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $left_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 74
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $left_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 75
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $left_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 80
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $left_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 81
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $right_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 85
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $right_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 86
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $right_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 91
+[02-Dec-2023 00:20:56 UTC] PHP Warning:  Undefined variable $right_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 92
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $left_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 48
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $left_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 49
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $left_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 53
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $left_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 54
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $right_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 58
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $right_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 59
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $right_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 63
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $right_score in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 64
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $left_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 74
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $left_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 75
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $left_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 80
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $left_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 81
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $right_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 85
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $right_character in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 86
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $right_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 91
+[02-Dec-2023 00:22:05 UTC] PHP Warning:  Undefined variable $right_character_name in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 92
+[02-Dec-2023 00:48:27 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[02-Dec-2023 00:48:27 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[02-Dec-2023 00:48:27 UTC] PHP Warning:  Undefined array key "left_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 21
+[02-Dec-2023 00:48:27 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[02-Dec-2023 00:48:27 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[02-Dec-2023 00:48:27 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25
+[02-Dec-2023 00:48:34 UTC] PHP Warning:  Undefined variable $team_1_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 112
+[02-Dec-2023 00:48:34 UTC] PHP Warning:  Undefined variable $team_2_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 117
+[02-Dec-2023 00:49:08 UTC] PHP Warning:  Undefined variable $team_1_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 112
+[02-Dec-2023 00:49:08 UTC] PHP Warning:  Undefined variable $team_2_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 117
+[02-Dec-2023 00:49:21 UTC] PHP Warning:  Undefined variable $team_1_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 112
+[02-Dec-2023 00:49:21 UTC] PHP Warning:  Undefined variable $team_2_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 117
+[02-Dec-2023 00:51:11 UTC] PHP Warning:  Undefined variable $team_1_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 112
+[02-Dec-2023 00:51:11 UTC] PHP Warning:  Undefined variable $team_2_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 117
+[02-Dec-2023 00:53:57 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 56
+[02-Dec-2023 00:53:57 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:53:57 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php:57
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php(57): fopen('', 'w')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:06 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 56
+[02-Dec-2023 00:54:06 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:06 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php:57
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php(57): fopen('', 'w')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:07 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 56
+[02-Dec-2023 00:54:07 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:07 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php:57
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php(57): fopen('', 'w')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:08 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 56
+[02-Dec-2023 00:54:08 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:08 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php:57
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php(57): fopen('', 'w')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:08 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 56
+[02-Dec-2023 00:54:08 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:08 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php:57
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php(57): fopen('', 'w')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:40 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 56
+[02-Dec-2023 00:54:40 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:54:40 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php:57
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php(57): fopen('', 'w')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:55:13 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 56
+[02-Dec-2023 00:55:13 UTC] PHP Warning:  Undefined variable $team_1_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:55:13 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php:57
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php(57): fopen('', 'w')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 57
+[02-Dec-2023 00:55:29 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 145
+[02-Dec-2023 00:55:29 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 152
+[02-Dec-2023 00:55:29 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 159
+[02-Dec-2023 00:55:29 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 166
+[02-Dec-2023 00:58:54 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 169
+[02-Dec-2023 00:58:54 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 176
+[02-Dec-2023 00:58:54 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 183
+[02-Dec-2023 00:58:54 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 190
+[02-Dec-2023 00:59:38 UTC] PHP Warning:  Undefined variable $team_1_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 173
+[02-Dec-2023 00:59:38 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 180
+[02-Dec-2023 00:59:38 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 187
+[02-Dec-2023 00:59:38 UTC] PHP Warning:  Undefined variable $team_2_score_placeholder in C:\Users\User\Local Sites\overlay-updater\app\public\doubles.php on line 194
+[02-Dec-2023 01:00:31 UTC] PHP Warning:  Undefined array key "team_1_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 10
+[02-Dec-2023 01:00:31 UTC] PHP Warning:  Undefined array key "team_2_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 11
+[02-Dec-2023 01:00:31 UTC] PHP Warning:  Undefined variable $team_1_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 112
+[02-Dec-2023 01:00:31 UTC] PHP Warning:  Undefined variable $team_2_players in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 117
+[02-Dec-2023 01:04:30 UTC] PHP Warning:  Undefined variable $player_2_score_file in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 131
+[02-Dec-2023 01:04:30 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, null given in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php:188
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(188): fclose(NULL)
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 188

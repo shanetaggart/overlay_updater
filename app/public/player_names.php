@@ -17,13 +17,17 @@
 
     <section>
 
+        <picture>
+            <img alt="Y-Town Smash Logo" src="/assets/images/Y-Town-Smash-Logo-v4.webp" width="200" height="200" />
+        </picture>
+
         <h1>Set Player Names</h1>
 
-        <p class="breadcrumb"><a href="index.php">Overlay Updater</a> / <a href="player_names.php">Set Player Names</a></p>
+        <?php include 'includes/blocks/nav.php'; ?>
 
-        <p class="instructions">Copy and Paste the player names into the textarea below. <span class="bold italics underlined">One name per line!</span><br />You can get a CSV export of the attendees from Start.gg by going to:<br />Settings > Attendees > Export</p>
 
         <form action="/includes/set_player_names.php" method="post" id="player_names_form">
+            <p class="instructions">Copy and Paste the player names into the textarea below. <span class="bold italics underlined">One name per line!</span>&nbsp;&nbsp;&nbsp;You can get a CSV export of the attendees from Start.gg by going to:<br />Settings (Admin) > Attendees > Export</p>
             <textarea id="player_names" name="player_names"></textarea>
             <input type="submit" value="Set Player Names" />
         </form>

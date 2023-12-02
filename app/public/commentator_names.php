@@ -25,6 +25,10 @@
 
     <section>
 
+        <picture>
+            <img alt="Y-Town Smash Logo" src="/assets/images/Y-Town-Smash-Logo-v4.webp" width="200" height="200" />
+        </picture>
+
         <h1>Set Commentator Names</h1>
 
         <?php include 'includes/blocks/nav.php'; ?>

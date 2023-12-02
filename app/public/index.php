@@ -57,9 +57,9 @@
 			<img alt="Y-Town Smash Logo" src="/assets/images/Y-Town-Smash-Logo-v4.webp" width="200" height="200" />
 		</picture>
 
-		<h1>Overlay Updater</h1>
+		<h1>Singles</h1>
 
-		<p class="breadcrumb"><a href="index.php">Overlay Updater</a> / <a href="player_names.php">Set Player Names</a></p>
+		<?php include 'includes/blocks/nav.php'; ?>
 
 		<form action="/includes/update_data.php" method="post" id="form">
 
@@ -125,10 +125,10 @@
 						<option disabled selected value=""><?php echo $right_character_name_placeholder; ?></option>
 					</select>
 				</label>
-				<picture>
+				<picture class="left_character_image">
 					<img id="left_character_image" src="overlay_files/left_character.png" alt="Left Character Image" width="285" height="143" />
 				</picture>
-				<picture>
+				<picture class="right_character_image">
 					<img id="right_character_image" src="overlay_files/right_character.png" alt="Right Character Image" width="285" height="143" />
 				</picture>
 			</aside>
