@@ -1,6 +1,5 @@
 package-lock.json
-app/public/overlay_files/
-app/public/assets/
+app/public/assets/images/logo.png
 app/sql/
 conf/
 logs/

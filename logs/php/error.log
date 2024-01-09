@@ -1280,3 +1280,99 @@ Stack trace:
 #0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php(188): fclose(NULL)
 #1 {main}
   thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data_doubles.php on line 188
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_imagick.dll (The specified module could not be found), C:/Users/User/AppData/Roaming/Local/lightning-services/php-8.1.23+0/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found)) in Unknown on line 0
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  file_get_contents(overlay_files/left_character_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 36
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  file_get_contents(overlay_files/right_character_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[09-Jan-2024 19:30:49 UTC] PHP Warning:  fopen(overlay_files/data/player_names.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[09-Jan-2024 19:30:49 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in C:\Users\User\Local Sites\overlay-updater\app\public\index.php:45
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\index.php(45): fwrite(false, 'PLACEHOLDER NAM...')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 45
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  file_get_contents(overlay_files/best_of.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 32
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  file_get_contents(overlay_files/left_character_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 34
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  file_get_contents(overlay_files/left_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 35
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  file_get_contents(overlay_files/left_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 36
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  file_get_contents(overlay_files/right_character_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 38
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  file_get_contents(overlay_files/right_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 39
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  file_get_contents(overlay_files/right_score.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 40
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  file_get_contents(overlay_files/set_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 41
+[09-Jan-2024 19:30:54 UTC] PHP Warning:  fopen(overlay_files/data/player_names.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[09-Jan-2024 19:30:54 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in C:\Users\User\Local Sites\overlay-updater\app\public\index.php:45
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\index.php(45): fwrite(false, 'PLACEHOLDER NAM...')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 45
+[09-Jan-2024 19:31:50 UTC] PHP Warning:  Undefined variable $best_of_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 6
+[09-Jan-2024 19:31:50 UTC] PHP Warning:  Undefined variable $best_of_path in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 7
+[09-Jan-2024 19:31:50 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:7
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(7): fopen('', 'w')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 7
+[09-Jan-2024 19:32:24 UTC] PHP Warning:  fopen(../overlay_files/data/left_commentator_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 43
+[09-Jan-2024 19:32:24 UTC] PHP Warning:  fopen(../overlay_files/data/right_commentator_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 44
+[09-Jan-2024 19:32:24 UTC] PHP Warning:  fopen(../overlay_files/data/player_names.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 45
+[09-Jan-2024 19:32:24 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php:73
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php(73): fwrite(false, 'LEFT COMMENTATO...')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\reset_data.php on line 73
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "left_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 21
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 22
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 26
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  Undefined array key "set_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 27
+[09-Jan-2024 19:33:12 UTC] PHP Warning:  fopen(../overlay_files/data/player_names.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 57
+[09-Jan-2024 19:33:12 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:62
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(62): fclose(false)
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php(43): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 62
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 19
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "left_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 20
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "left_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 21
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "left_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 22
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 23
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "right_character" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 24
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "right_score" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 26
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  Undefined array key "set_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 27
+[09-Jan-2024 19:33:18 UTC] PHP Warning:  fopen(../overlay_files/data/player_names.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 57
+[09-Jan-2024 19:33:18 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php:62
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php(62): fclose(false)
+#1 C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php(43): include('C:\\Users\\User\\L...')
+#2 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\includes\create_missing_files.php on line 62
+[09-Jan-2024 19:33:23 UTC] PHP Warning:  fopen(overlay_files/data/player_names.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 44
+[09-Jan-2024 19:33:23 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in C:\Users\User\Local Sites\overlay-updater\app\public\index.php:45
+Stack trace:
+#0 C:\Users\User\Local Sites\overlay-updater\app\public\index.php(45): fwrite(false, 'PLACEHOLDER NAM...')
+#1 {main}
+  thrown in C:\Users\User\Local Sites\overlay-updater\app\public\index.php on line 45
+[09-Jan-2024 19:36:10 UTC] PHP Warning:  file_get_contents(overlay_files/data/left_commentator_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\commentator_names.php on line 21
+[09-Jan-2024 19:36:10 UTC] PHP Warning:  file_get_contents(overlay_files/data/right_commentator_name.txt): Failed to open stream: No such file or directory in C:\Users\User\Local Sites\overlay-updater\app\public\commentator_names.php on line 22
+[09-Jan-2024 19:38:04 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[09-Jan-2024 19:38:04 UTC] PHP Warning:  Undefined array key "left_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 21
+[09-Jan-2024 19:38:04 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25
+[09-Jan-2024 19:39:12 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[09-Jan-2024 19:39:12 UTC] PHP Warning:  Undefined array key "left_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 21
+[09-Jan-2024 19:39:12 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25
+[09-Jan-2024 19:39:42 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18
+[09-Jan-2024 19:39:42 UTC] PHP Warning:  Undefined array key "left_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 21
+[09-Jan-2024 19:39:42 UTC] PHP Warning:  Undefined array key "right_name" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 25
+[09-Jan-2024 19:42:18 UTC] PHP Warning:  Undefined array key "best_of" in C:\Users\User\Local Sites\overlay-updater\app\public\includes\update_data.php on line 18

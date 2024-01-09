@@ -54,7 +54,7 @@
 	<section>
 
 		<picture>
-			<img alt="Y-Town Smash Logo" src="/assets/images/Y-Town-Smash-Logo-v4.webp" width="200" height="200" />
+			<img alt="Y-Town Smash Logo" src="/assets/images/logo.png" width="200" height="200" />
 		</picture>
 
 		<h1>Singles</h1>
