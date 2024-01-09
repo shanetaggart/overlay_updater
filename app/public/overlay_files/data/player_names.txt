@@ -1,8 +1,6 @@
-PLAYER 1
-PLAYER 2
-PLAYER 3
-PLAYER 4
-PLAYER 5
-PLAYER 6
-PLAYER 7
-PLAYER 8
+jonch
+stag
+mjs4320
+mobilibom
+silent bob
+silver
