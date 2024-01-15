@@ -16,5 +16,5 @@ fclose($left_commentator_name_file);
 fclose($right_commentator_name_file);
 
 // Redirect back to the main Overlay Updater page.
-$form_url = '../index.php';
+$form_url = 'http://localhost/overlay_updater/app/public/index.php';
 header('Location: ' . $form_url);

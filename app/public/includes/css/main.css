@@ -47,14 +47,17 @@ section {
     font-size: 1.25rem;
     width: 100%;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    gap: 1em; }
     section nav a {
       background: #002f5f;
       color: #fff;
       padding: 1em 2em;
       text-decoration: none;
       border: 2px solid transparent;
-      transition: all 0.25s ease; }
+      transition: all 0.25s ease;
+      display: grid;
+      place-items: center; }
       section nav a:hover {
         border: 2px solid #2085e8; }
     @media screen and (max-width: 950px) {

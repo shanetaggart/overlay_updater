@@ -84,8 +84,8 @@ window.addEventListener('load', (event) => {
     let rightCharacterImage = document.getElementById('right_character_image');
     
     // Store the paths for the left and right-facing character images.
-    const leftCharacterImagePath = '../assets/characters/left/';
-    const rightCharacterImagePath = '../assets/characters/right/';
+    const leftCharacterImagePath = 'http://localhost/overlay_updater/app/public/assets/characters/left/';
+    const rightCharacterImagePath = 'http://localhost/overlay_updater/app/public/assets/characters/right/';
 
     // When the <select> elements change, change the image source and remove the grayscale filter.
     if (singles) {
@@ -164,15 +164,15 @@ window.addEventListener('load', (event) => {
     
             // Swap the data for Character Images.
             if (leftCharacter.value) {
-                leftCharacterImage.src = '../assets/characters/left/' + leftCharacter.value.replaceAll(' ', '') + '.png';
+                leftCharacterImage.src = 'http://localhost/overlay_updater/app/public/assets/characters/left/' + leftCharacter.value.replaceAll(' ', '') + '.png';
             } else {
-                leftCharacterImage.src = '../assets/characters/left/' + leftCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
+                leftCharacterImage.src = 'http://localhost/overlay_updater/app/public/assets/characters/left/' + leftCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
             }
     
             if (rightCharacter.value) {
-                rightCharacterImage.src = '../assets/characters/right/' + rightCharacter.value.replaceAll(' ', '') + '.png';
+                rightCharacterImage.src = 'http://localhost/overlay_updater/app/public/assets/characters/right/' + rightCharacter.value.replaceAll(' ', '') + '.png';
             } else {
-                rightCharacterImage.src = '../assets/characters/right/' + rightCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
+                rightCharacterImage.src = 'http://localhost/overlay_updater/app/public/assets/characters/right/' + rightCharacter.firstElementChild.innerText.replaceAll(' ', '') + '.png';
             }
         });
     }

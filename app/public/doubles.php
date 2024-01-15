@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="A tool for updating the stream overlay for Y-Town Smash.">
 	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="./includes/css/main.css" />
-	<script type="text/javascript" src="./includes/js/characters.js"></script>
-	<script type="text/javascript" src="./includes/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://localhost/overlay_updater/app/public/includes/css/main.css" />
+	<script type="text/javascript" src="http://localhost/overlay_updater/app/public/includes/js/characters.js"></script>
+	<script type="text/javascript" src="http://localhost/overlay_updater/app/public/includes/js/main.js"></script>
 
 </head>
 
@@ -17,17 +17,17 @@
 
 	<?php
 
-	$set_name_file = 'overlay_files/set_name.txt';
-	$best_of_file = 'overlay_files/best_of.txt';
-	$player_names_file = 'overlay_files/data/player_names.txt';
-	$player_1_name_file = 'overlay_files/player_1_name.txt';
-	$player_2_name_file = 'overlay_files/player_2_name.txt';
-	$player_3_name_file = 'overlay_files/player_3_name.txt';
-	$player_4_name_file = 'overlay_files/player_4_name.txt';
-	$player_1_score_file = 'overlay_files/player_1_score.txt';
-	$player_2_score_file = 'overlay_files/player_2_score.txt';
-	$player_3_score_file = 'overlay_files/player_3_score.txt';
-	$player_4_score_file = 'overlay_files/player_4_score.txt';
+	$set_name_file = './overlay_files/set_name.txt';
+	$best_of_file = './overlay_files/best_of.txt';
+	$player_names_file = './overlay_files/data/player_names.txt';
+	$player_1_name_file = './overlay_files/player_1_name.txt';
+	$player_2_name_file = './overlay_files/player_2_name.txt';
+	$player_3_name_file = './overlay_files/player_3_name.txt';
+	$player_4_name_file = './overlay_files/player_4_name.txt';
+	$player_1_score_file = './overlay_files/player_1_score.txt';
+	$player_2_score_file = './overlay_files/player_2_score.txt';
+	$player_3_score_file = './overlay_files/player_3_score.txt';
+	$player_4_score_file = './overlay_files/player_4_score.txt';
 
 	if (!file_exists($player_1_name_file)) {
 		$player_1 = fopen($player_1_name_file, "w");
@@ -102,14 +102,14 @@
 	<section>
 
 		<picture>
-			<img alt="Y-Town Smash Logo" src="/assets/images/Y-Town-Smash-Logo-v4.webp" width="200" height="200" />
+			<img alt="Y-Town Smash Logo" src="http://localhost/overlay_updater/app/public/assets/images/teg-logo.webp" width="200" height="200" />
 		</picture>
 
 		<h1>Doubles</h1>
 
 		<?php include 'includes/blocks/nav.php'; ?>
 
-		<form action="/includes/update_data_doubles.php" method="post" id="form">
+		<form action="http://localhost/overlay_updater/app/public/includes/update_data_doubles.php" method="post" id="form">
 
 			<h2>Match Details</h2>
 

@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="A tool for updating the stream overlay for Y-Town Smash.">
 	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="./includes/css/main.css" />
-	<script type="text/javascript" src="./includes/js/characters.js"></script>
-	<script type="text/javascript" src="./includes/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://localhost/overlay_updater/app/public/includes/css/main.css" />
+	<script type="text/javascript" src="http://localhost/overlay_updater/app/public/includes/js/characters.js"></script>
+	<script type="text/javascript" src="http://localhost/overlay_updater/app/public/includes/js/main.js"></script>
 
 </head>
 
@@ -17,17 +17,17 @@
 
 	<?php
 
-	$best_of_file = 'overlay_files/best_of.txt';
-	$left_character_file = 'overlay_files/left_character.png';
-	$left_character_name_file = 'overlay_files/left_character_name.txt';
-	$left_name_file = 'overlay_files/left_name.txt';
-	$left_score_file = 'overlay_files/left_score.txt';
-	$right_character_file = 'overlay_files/right_character.png';
-	$right_character_name_file = 'overlay_files/right_character_name.txt';
-	$right_name_file = 'overlay_files/right_name.txt';
-	$right_score_file = 'overlay_files/right_score.txt';
-	$set_name_file = 'overlay_files/set_name.txt';
-	$player_names_file = 'overlay_files/data/player_names.txt';
+	$best_of_file = './overlay_files/best_of.txt';
+	$left_character_file = './overlay_files/left_character.png';
+	$left_character_name_file = './overlay_files/left_character_name.txt';
+	$left_name_file = './overlay_files/left_name.txt';
+	$left_score_file = './overlay_files/left_score.txt';
+	$right_character_file = './overlay_files/right_character.png';
+	$right_character_name_file = './overlay_files/right_character_name.txt';
+	$right_name_file = './overlay_files/right_name.txt';
+	$right_score_file = './overlay_files/right_score.txt';
+	$set_name_file = './overlay_files/set_name.txt';
+	$player_names_file = './overlay_files/data/player_names.txt';
 
 	$best_of_placeholder = file_get_contents($best_of_file);
 	$left_character_placeholder = file_get_contents($left_character_file);
@@ -54,14 +54,14 @@
 	<section>
 
 		<picture>
-			<img alt="Y-Town Smash Logo" src="/assets/images/logo.png" width="200" height="200" />
+			<img alt="Y-Town Smash Logo" src="http://localhost/overlay_updater/app/public/assets/images/teg-logo.webp" width="200" height="200" />
 		</picture>
 
 		<h1>Singles</h1>
 
 		<?php include 'includes/blocks/nav.php'; ?>
 
-		<form action="/includes/update_data.php" method="post" id="form">
+		<form action="http://localhost/overlay_updater/app/public/includes/update_data.php" method="post" id="form">
 
 			<button id="form-reset">Reset</button>
 
@@ -126,10 +126,10 @@
 					</select>
 				</label>
 				<picture class="left_character_image">
-					<img id="left_character_image" src="overlay_files/left_character.png" alt="Left Character Image" width="285" height="143" />
+					<img id="left_character_image" src="http://localhost/overlay_updater/app/public/overlay_files/left_character.png" alt="Left Character Image" width="285" height="143" />
 				</picture>
 				<picture class="right_character_image">
-					<img id="right_character_image" src="overlay_files/right_character.png" alt="Right Character Image" width="285" height="143" />
+					<img id="right_character_image" src="http://localhost/overlay_updater/app/public/overlay_files/right_character.png" alt="Right Character Image" width="285" height="143" />
 				</picture>
 			</aside>
 

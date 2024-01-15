@@ -189,5 +189,5 @@ foreach ($open_files as $file) {
 }
 
 // Redirect back to the main Overlay Updater page.
-$form_url = '../doubles.php';
+$form_url = 'http://localhost/overlay_updater/app/public/doubles.php';
 header('Location: ' . $form_url);

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Set the commentator names for the Y-Town Smash Overlay Updater.">
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="./includes/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost/overlay_updater/app/public/includes/css/main.css" />
 
 </head>
 
@@ -15,8 +15,8 @@
 
     <?php
 
-    $left_commentator_name_file = 'overlay_files/data/left_commentator_name.txt';
-    $right_commentator_name_file = 'overlay_files/data/right_commentator_name.txt';
+    $left_commentator_name_file = 'http://localhost/overlay_updater/app/public/overlay_files/data/left_commentator_name.txt';
+    $right_commentator_name_file = 'http://localhost/overlay_updater/app/public/overlay_files/data/right_commentator_name.txt';
 
     $left_commentator_name_placeholder = file_get_contents($left_commentator_name_file);
     $right_commentator_name_placeholder = file_get_contents($right_commentator_name_file);
@@ -26,14 +26,14 @@
     <section>
 
         <picture>
-            <img alt="Y-Town Smash Logo" src="/assets/images/Y-Town-Smash-Logo-v4.webp" width="200" height="200" />
+            <img alt="Y-Town Smash Logo" src="http://localhost/overlay_updater/app/public/assets/images/teg-logo.webp" width="200" height="200" />
         </picture>
 
         <h1>Set Commentator Names</h1>
 
         <?php include 'includes/blocks/nav.php'; ?>
 
-        <form action="/includes/set_commentator_names.php" method="post" id="commentator_names_form">
+        <form action="http://localhost/overlay_updater/app/public/includes/set_commentator_names.php" method="post" id="commentator_names_form">
             <aside>
                 <label for="left_commentator_name">Left Commentator Name
                     <input type="text" name="left_commentator_name" id="left_commentator_name" maxlength="16" placeholder="<?php echo $left_commentator_name_placeholder; ?>" />

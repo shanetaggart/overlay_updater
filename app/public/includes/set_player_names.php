@@ -8,5 +8,5 @@ fwrite($player_names_file, $player_names);
 fclose($player_names_file);
 
 // Redirect back to the main Overlay Updater page.
-$form_url = '../index.php';
+$form_url = 'http://localhost/overlay_updater/app/public/index.php';
 header('Location: ' . $form_url);
